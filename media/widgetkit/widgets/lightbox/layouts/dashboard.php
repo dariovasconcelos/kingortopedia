@@ -16,7 +16,7 @@
 
 			<p>You can set various other lightbox parameters to the data attribute. For example:</p>
 
-			<pre>&lt;a <code>data-lightbox="transitionIn:elastic;transitionOut:elastic;"</code> href="http://www.google.com"&gt;Lightbox&lt;/a&gt;</pre>
+			<pre>&lt;a <code>data-lightbox="transitionIn:elastic;transitionOut:elastic;"</code> href="https://www.google.com"&gt;Lightbox&lt;/a&gt;</pre>
 
 			<p>Here is a list of common parameters:</p>
 

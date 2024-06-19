@@ -7,7 +7,7 @@
  *
  * @license		MIT License
  *
- * @author		Harald Kirschner <http://digitarald.de>
+ * @author		Harald Kirschner <https://digitarald.de>
  * @copyright	Authors
  */
 

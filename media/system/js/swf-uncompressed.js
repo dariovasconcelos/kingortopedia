@@ -5,8 +5,8 @@
  *
  * @license		MIT License
  *
- * @author		Harald Kirschner <http://digitarald.de>
- * @author		Valerio Proietti, <http://mad4milk.net>
+ * @author		Harald Kirschner <https://digitarald.de>
+ * @author		Valerio Proietti, <https://mad4milk.net>
  * @copyright	Authors
  */
 

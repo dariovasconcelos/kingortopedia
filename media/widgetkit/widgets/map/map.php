@@ -1,9 +1,9 @@
 <?php
 /**
 * @package   Widgetkit
-* @author    YOOtheme http://www.yootheme.com
+* @author    YOOtheme https://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 /*
@@ -139,7 +139,7 @@ class MapWidgetkitHelper extends WidgetkitHelper {
 		// add js
         $this['asset']->addFile('js', 'map:js/edit.js');
 		$this['asset']->addFile('js', 'map:js/map.js');
-		$this['asset']->addFile('js', 'http://maps.google.com/maps/api/js?sensor=false&language=en');
+		$this['asset']->addFile('js', 'https://maps.google.com/maps/api/js?sensor=false&language=en');
 
 		// get widget and xml
 		$widget = $this->get($id ? $id : $this['request']->get('id', 'int'));
@@ -194,7 +194,7 @@ class MapWidgetkitHelper extends WidgetkitHelper {
 		$output = '{}';
 
 		if ($address = $this['request']->get('address', 'string')) {
-			if ($response = $this['http']->get('http://maps.google.com/maps/api/geocode/json?address='.urlencode($address).'&sensor=false')) {
+			if ($response = $this['http']->get('https://maps.google.com/maps/api/geocode/json?address='.urlencode($address).'&sensor=false')) {
 				$output = $response['body'];
 			}
 		}
