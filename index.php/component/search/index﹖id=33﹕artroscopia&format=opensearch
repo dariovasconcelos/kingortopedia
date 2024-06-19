@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>King Ortopedia</ShortName>
-  <Description>En KingOrtopedia encontrarás un equipo muy experimentado y especializado en el tratamiento de enfermedades ortopédicas.</Description>
-  <InputEncoding>UTF-8</InputEncoding>
-  <Image type="image/vnd.microsoft.icon" width="16" height="16">http://kingortopedia.com/templates/king-ortopedia/favicon.ico</Image>
-  <Url type="application/opensearchdescription+xml" rel="self" template="http://kingortopedia.com/index.php/component/search/?id=33:artroscopia&amp;format=opensearch"/>
-  <Url type="text/html" template="http://kingortopedia.com/index.php?option=com_search&amp;searchword={searchTerms}"/>
-</OpenSearchDescription>
