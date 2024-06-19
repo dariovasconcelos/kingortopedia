@@ -6,10 +6,10 @@
 # MUST be changed to read Disallow: /joomla/administrator/
 #
 # For more information about the robots.txt standard, see:
-# https://www.robotstxt.org/orig.html
+# http://www.robotstxt.org/orig.html
 #
 # For syntax checking, see:
-# https://www.sxw.org.uk/computing/robots/check.html
+# http://www.sxw.org.uk/computing/robots/check.html
 
 User-agent: *
 Disallow: /administrator/

@@ -129,7 +129,7 @@ function checkPrefix(n) {
 		n.value = 'mailto:' + n.value;
 
 	if (/^\s*www\./i.test(n.value) && confirm(tinyMCEPopup.getLang('advlink_dlg.is_external')))
-		n.value = 'https://' + n.value;
+		n.value = 'http://' + n.value;
 }
 
 function setFormValue(name, value) {

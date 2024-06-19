@@ -1,5 +1,5 @@
 // MooTools: the javascript framework.
-// Load this file's selection again by visiting: https://mootools.net/more/065f2f092ece4e3b32bb5214464cf926 
+// Load this file's selection again by visiting: http://mootools.net/more/065f2f092ece4e3b32bb5214464cf926 
 // Or build this file again with packager using: packager build More/More More/Events.Pseudos More/Class.Refactor More/Class.Binds More/Class.Occlude More/Chain.Wait More/Array.Extras More/Date More/Date.Extras More/Number.Format More/Object.Extras More/String.Extras More/String.QueryString More/URI More/URI.Relative More/Hash More/Hash.Extras More/Element.Forms More/Elements.From More/Element.Event.Pseudos More/Element.Event.Pseudos.Keys More/Element.Measure More/Element.Pin More/Element.Position More/Element.Shortcuts More/Form.Request More/Form.Request.Append More/Form.Validator More/Form.Validator.Inline More/Form.Validator.Extras More/OverText More/Fx.Elements More/Fx.Accordion More/Fx.Move More/Fx.Reveal More/Fx.Scroll More/Fx.Slide More/Fx.SmoothScroll More/Fx.Sort More/Drag More/Drag.Move More/Slider More/Sortables More/Request.JSONP More/Request.Queue More/Request.Periodical More/Assets More/Color More/Group More/Hash.Cookie More/IframeShim More/Table More/HtmlTable More/HtmlTable.Zebra More/HtmlTable.Sort More/HtmlTable.Select More/Keyboard More/Keyboard.Extras More/Mask More/Scroller More/Tips More/Spinner More/Locale More/Locale.Set.From More/Locale.en-US.Date More/Locale.en-US.Form.Validator More/Locale.en-US.Number More/Locale.ar.Date More/Locale.ar.Form.Validator More/Locale.ca-CA.Date More/Locale.ca-CA.Form.Validator More/Locale.cs-CZ.Date More/Locale.cs-CZ.Form.Validator More/Locale.da-DK.Date More/Locale.da-DK.Form.Validator More/Locale.de-CH.Date More/Locale.de-CH.Form.Validator More/Locale.de-DE.Date More/Locale.de-DE.Form.Validator More/Locale.de-DE.Number More/Locale.en-GB.Date More/Locale.es-AR.Date More/Locale.es-AR.Form.Validator More/Locale.es-ES.Date More/Locale.es-ES.Form.Validator More/Locale.et-EE.Date More/Locale.et-EE.Form.Validator More/Locale.EU.Number More/Locale.fa.Date More/Locale.fa.Form.Validator More/Locale.fi-FI.Date More/Locale.fi-FI.Form.Validator More/Locale.fi-FI.Number More/Locale.fr-FR.Date More/Locale.fr-FR.Form.Validator More/Locale.fr-FR.Number More/Locale.he-IL.Date More/Locale.he-IL.Form.Validator More/Locale.he-IL.Number More/Locale.hu-HU.Date More/Locale.hu-HU.Form.Validator More/Locale.it-IT.Date More/Locale.it-IT.Form.Validator More/Locale.ja-JP.Date More/Locale.ja-JP.Form.Validator More/Locale.ja-JP.Number More/Locale.nl-NL.Date More/Locale.nl-NL.Form.Validator More/Locale.nl-NL.Number More/Locale.no-NO.Date More/Locale.no-NO.Form.Validator More/Locale.pl-PL.Date More/Locale.pl-PL.Form.Validator More/Locale.pt-BR.Date More/Locale.pt-BR.Form.Validator More/Locale.pt-PT.Date More/Locale.pt-PT.Form.Validator More/Locale.ru-RU-unicode.Date More/Locale.ru-RU-unicode.Form.Validator More/Locale.si-SI.Date More/Locale.si-SI.Form.Validator More/Locale.sv-SE.Date More/Locale.sv-SE.Form.Validator More/Locale.uk-UA.Date More/Locale.uk-UA.Form.Validator More/Locale.zh-CH.Date More/Locale.zh-CH.Form.Validator
 /*
 ---
@@ -807,8 +807,8 @@ license: MIT-style license
 authors:
   - Aaron Newton
   - Nicholas Barthelemy - https://svn.nbarthelemy.com/date-js/
-  - Harald Kirshner - mail [at] digitarald.de; https://digitarald.de
-  - Scott Kyle - scott [at] appden.com; https://appden.com
+  - Harald Kirshner - mail [at] digitarald.de; http://digitarald.de
+  - Scott Kyle - scott [at] appden.com; http://appden.com
 
 requires:
   - Core/Array
@@ -4326,7 +4326,7 @@ Locale.define('en-US', 'FormValidator', {
 	dateSuchAs: 'Please enter a valid date such as {date}',
 	dateInFormatMDY: 'Please enter a valid date such as MM/DD/YYYY (i.e. "12/31/1999")',
 	email: 'Please enter a valid email address. For example "fred@domain.com".',
-	url: 'Please enter a valid URL such as https://www.example.com.',
+	url: 'Please enter a valid URL such as http://www.example.com.',
 	currencyDollar: 'Please enter a valid $ amount. For example $100.00 .',
 	oneRequired: 'Please enter something for at least one of these inputs.',
 	errorPrefix: 'Error: ',
@@ -10114,7 +10114,7 @@ Locale.define('ar', 'FormValidator', {
 	dateSuchAs: 'الرجاء إدخال تاريخ صحيح كالتالي {date}',
 	dateInFormatMDY: 'الرجاء إدخال تاريخ صحيح (مثال, 31-12-1999)',
 	email: 'الرجاء إدخال بريد إلكتروني صحيح.',
-	url: 'الرجاء إدخال عنوان إلكتروني صحيح مثل https://www.example.com',
+	url: 'الرجاء إدخال عنوان إلكتروني صحيح مثل http://www.example.com',
 	currencyDollar: 'الرجاء إدخال قيمة $ صحيحة. مثال, 100.00$',
 	oneRequired: 'الرجاء إدخال قيمة في أحد هذه الحقول على الأقل.',
 	errorPrefix: 'خطأ: ',
@@ -10214,7 +10214,7 @@ Locale.define('ca-CA', 'FormValidator', {
 	dateSuchAs: 'Per favor introdueix una data valida com {date}',
 	dateInFormatMDY: 'Per favor introdueix una data valida com DD/MM/YYYY (p.e. "31/12/1999")',
 	email: 'Per favor, introdueix una adreça de correu electronic valida. Per exemple, "fred@domain.com".',
-	url: 'Per favor introdueix una URL valida com https://www.example.com.',
+	url: 'Per favor introdueix una URL valida com http://www.example.com.',
 	currencyDollar: 'Per favor introdueix una quantitat valida de €. Per exemple €100,00 .',
 	oneRequired: 'Per favor introdueix alguna cosa per al menys una d´aquestes entrades.',
 	errorPrefix: 'Error: ',
@@ -10259,7 +10259,7 @@ provides: [Locale.cs-CZ.Date]
 */
 (function(){
 
-// Czech language pluralization rules, see https://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html
+// Czech language pluralization rules, see http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html
 // one -> n is 1;            1
 // few -> n in 2..4;         2-4
 // other -> everything else  0, 5-999, 1.31, 2.31, 5.31...
@@ -10352,7 +10352,7 @@ Locale.define('cs-CZ', 'FormValidator', {
 	dateSuchAs: 'Zadejte prosím platné datum jako {date}',
 	dateInFormatMDY: 'Zadejte prosím platné datum jako MM / DD / RRRR (tj. "12/31/1999")',
 	email: 'Zadejte prosím platnou e-mailovou adresu. Například "fred@domain.com".',
-	url: 'Zadejte prosím platnou URL adresu jako https://www.example.com.',
+	url: 'Zadejte prosím platnou URL adresu jako http://www.example.com.',
 	currencyDollar: 'Zadejte prosím platnou částku. Například $100.00.',
 	oneRequired: 'Zadejte prosím alespoň jednu hodnotu pro tyto položky.',
 	errorPrefix: 'Chyba: ',
@@ -10479,7 +10479,7 @@ Locale.define('da-DK', 'FormValidator', {
 	dateSuchAs: 'Skriv en gyldig dato som {date}',
 	dateInFormatMDY: 'Skriv dato i formatet DD-MM-YYYY (f.eks. "31-12-1999")',
 	email: 'Skriv en gyldig e-mail adresse. F.eks "fred@domain.com".',
-	url: 'Skriv en gyldig URL adresse. F.eks "https://www.example.com".',
+	url: 'Skriv en gyldig URL adresse. F.eks "http://www.example.com".',
 	currencyDollar: 'Skriv et gldigt beløb. F.eks Kr.100.00 .',
 	oneRequired: 'Et eller flere af felterne i denne formular skal udfyldes.',
 	errorPrefix: 'Fejl: ',
@@ -10631,7 +10631,7 @@ Locale.define('de-CH', 'FormValidator', {
 	dateSuchAs: 'Geben Sie bitte ein g&uuml;ltiges Datum ein. Wie zum Beispiel {date}',
 	dateInFormatMDY: 'Geben Sie bitte ein g&uuml;ltiges Datum ein. Wie zum Beispiel TT.MM.JJJJ (z.B. &quot;31.12.1999&quot;)',
 	email: 'Geben Sie bitte eine g&uuml;ltige E-Mail Adresse ein. Wie zum Beispiel &quot;maria@bernasconi.ch&quot;.',
-	url: 'Geben Sie bitte eine g&uuml;ltige URL ein. Wie zum Beispiel https://www.example.com.',
+	url: 'Geben Sie bitte eine g&uuml;ltige URL ein. Wie zum Beispiel http://www.example.com.',
 	currencyDollar: 'Geben Sie bitte einen g&uuml;ltigen Betrag in Schweizer Franken ein. Wie zum Beispiel 100.00 CHF .',
 	oneRequired: 'Machen Sie f&uuml;r mindestens eines der Eingabefelder einen Eintrag.',
 	errorPrefix: 'Fehler: ',
@@ -10690,7 +10690,7 @@ Locale.define('de-DE', 'FormValidator', {
 	dateSuchAs: 'Geben Sie bitte ein gültiges Datum ein (z.B. "{date}").',
 	dateInFormatMDY: 'Geben Sie bitte ein gültiges Datum im Format TT.MM.JJJJ ein (z.B. "31.12.1999").',
 	email: 'Geben Sie bitte eine gültige E-Mail-Adresse ein (z.B. "max@mustermann.de").',
-	url: 'Geben Sie bitte eine gültige URL ein (z.B. "https://www.example.com").',
+	url: 'Geben Sie bitte eine gültige URL ein (z.B. "http://www.example.com").',
 	currencyDollar: 'Geben Sie bitte einen gültigen Betrag in EURO ein (z.B. 100.00€).',
 	oneRequired: 'Bitte füllen Sie mindestens ein Eingabefeld aus.',
 	errorPrefix: 'Fehler: ',
@@ -10928,7 +10928,7 @@ Locale.define('es-AR', 'FormValidator', {
 	dateSuchAs: 'Por favor ingrese una fecha válida como {date}',
 	dateInFormatMDY: 'Por favor ingrese una fecha válida, utulizando el formato DD/MM/YYYY (p.e. "31/12/1999")',
 	email: 'Por favor, ingrese una dirección de e-mail válida. Por ejemplo, "fred@dominio.com".',
-	url: 'Por favor ingrese una URL válida como https://www.example.com.',
+	url: 'Por favor ingrese una URL válida como http://www.example.com.',
 	currencyDollar: 'Por favor ingrese una cantidad válida de pesos. Por ejemplo $100,00 .',
 	oneRequired: 'Por favor ingrese algo para por lo menos una de estas entradas.',
 	errorPrefix: 'Error: ',
@@ -10984,7 +10984,7 @@ Locale.define('es-ES', 'FormValidator', {
 	dateSuchAs: 'Por favor introduce una fecha v&aacute;lida como {date}',
 	dateInFormatMDY: 'Por favor introduce una fecha v&aacute;lida como DD/MM/YYYY (p.e. "31/12/1999")',
 	email: 'Por favor, introduce una direcci&oacute;n de email v&aacute;lida. Por ejemplo, "fred@domain.com".',
-	url: 'Por favor introduce una URL v&aacute;lida como https://www.example.com.',
+	url: 'Por favor introduce una URL v&aacute;lida como http://www.example.com.',
 	currencyDollar: 'Por favor introduce una cantidad v&aacute;lida de €. Por ejemplo €100,00 .',
 	oneRequired: 'Por favor introduce algo para por lo menos una de estas entradas.',
 	errorPrefix: 'Error: ',
@@ -11109,7 +11109,7 @@ Locale.define('et-EE', 'FormValidator', {
 	dateSuchAs: 'Palun sisestage kehtiv kuupäev kujul {date}',
 	dateInFormatMDY: 'Palun sisestage kehtiv kuupäev kujul MM.DD.YYYY (näiteks: "12.31.1999").',
 	email: 'Palun sisestage kehtiv e-maili aadress (näiteks: "fred@domain.com").',
-	url: 'Palun sisestage kehtiv URL (näiteks: https://www.example.com).',
+	url: 'Palun sisestage kehtiv URL (näiteks: http://www.example.com).',
 	currencyDollar: 'Palun sisestage kehtiv $ summa (näiteks: $100.00).',
 	oneRequired: 'Palun sisestage midagi vähemalt ühele antud väljadest.',
 	errorPrefix: 'Viga: ',
@@ -11233,7 +11233,7 @@ Locale.define('fa', 'FormValidator', {
 	dateSuchAs: 'لطفا یک تاریخ معتبر مانند {date} وارد کنید.',
 	dateInFormatMDY: 'لطفا یک تاریخ معتبر به شکل MM/DD/YYYY وارد کنید (مانند "12/31/1999").',
 	email: 'لطفا یک آدرس ایمیل معتبر وارد کنید. برای مثال "fred@domain.com".',
-	url: 'لطفا یک URL معتبر مانند https://www.example.com وارد کنید.',
+	url: 'لطفا یک URL معتبر مانند http://www.example.com وارد کنید.',
 	currencyDollar: 'لطفا یک محدوده معتبر برای این بخش وارد کنید مانند 100.00$ .',
 	oneRequired: 'لطفا حداقل یکی از فیلدها را پر کنید.',
 	errorPrefix: 'خطا: ',
@@ -11364,7 +11364,7 @@ Locale.define('fi-FI', 'FormValidator', {
 	dateSuchAs: 'Ole hyvä ja anna kelvollinen päivmäärä, kuten esimerkiksi {date}',
 	dateInFormatMDY: 'Ole hyvä ja anna kelvollinen päivämäärä muodossa pp/kk/vvvv (kuten "12/31/1999")',
 	email: 'Ole hyvä ja anna kelvollinen sähköpostiosoite (kuten esimerkiksi "matti@meikalainen.com").',
-	url: 'Ole hyvä ja anna kelvollinen URL, kuten esimerkiksi https://www.example.com.',
+	url: 'Ole hyvä ja anna kelvollinen URL, kuten esimerkiksi http://www.example.com.',
 	currencyDollar: 'Ole hyvä ja anna kelvollinen eurosumma (kuten esimerkiksi 100,00 EUR) .',
 	oneRequired: 'Ole hyvä ja syötä jotakin ainakin johonkin näistä kentistä.',
 	errorPrefix: 'Virhe: ',
@@ -11523,7 +11523,7 @@ Locale.define('fr-FR', 'FormValidator', {
 	dateSuchAs: 'Veuillez saisir une date correcte comme {date}',
 	dateInFormatMDY: 'Veuillez saisir une date correcte, au format JJ/MM/AAAA (ex : "31/11/1999").',
 	email: 'Veuillez saisir une adresse de courrier &eacute;lectronique. Par example "fred@domaine.com".',
-	url: 'Veuillez saisir une URL, comme https://www.example.com.',
+	url: 'Veuillez saisir une URL, comme http://www.example.com.',
 	currencyDollar: 'Veuillez saisir une quantit&eacute; correcte. Par example 100,00&euro;.',
 	oneRequired: 'Veuillez s&eacute;lectionner au moins une de ces options.',
 	errorPrefix: 'Erreur : ',
@@ -11678,7 +11678,7 @@ Locale.define('he-IL', 'FormValidator', {
 	dateSuchAs: 'נא להזין תאריך חוקי, כמו {date}',
 	dateInFormatMDY: 'נא להזין תאריך חוקי בפורמט MM/DD/YYYY (כמו "12/31/1999")',
 	email: 'נא להזין כתובת אימייל חוקית. לדוגמה: "fred@domain.com".',
-	url: 'נא להזין כתובת אתר חוקית, כמו https://www.example.com.',
+	url: 'נא להזין כתובת אתר חוקית, כמו http://www.example.com.',
 	currencyDollar: 'נא להזין סכום דולרי חוקי. לדוגמה $100.00.',
 	oneRequired: 'נא לבחור לפחות בשדה אחד.',
 	errorPrefix: 'שגיאה: ',
@@ -11836,7 +11836,7 @@ Locale.define('hu-HU', 'FormValidator', {
 	dateSuchAs: 'Valós dátum megadása szükséges (pl. {date}).',
 	dateInFormatMDY: 'Valós dátum megadása szükséges ÉÉÉÉ.HH.NN. formában. (pl. "1999.12.31.")',
 	email: 'Valós e-mail cím megadása szükséges (pl. "fred@domain.hu").',
-	url: 'Valós URL megadása szükséges (pl. https://www.example.com).',
+	url: 'Valós URL megadása szükséges (pl. http://www.example.com).',
 	currencyDollar: 'Valós pénzösszeg megadása szükséges (pl. 100.00 Ft.).',
 	oneRequired: 'Az alábbi mezők legalább egyikének kitöltése kötelező.',
 	errorPrefix: 'Hiba: ',
@@ -11964,7 +11964,7 @@ Locale.define('it-IT', 'FormValidator', {
 	dateSuchAs: 'Inserire una data valida del tipo {date}',
 	dateInFormatMDY: 'Inserire una data valida nel formato MM/GG/AAAA (es.: "12/31/1999")',
 	email: 'Inserire un indirizzo email valido. Per esempio "nome@dominio.com".',
-	url: 'Inserire un indirizzo valido. Per esempio "https://www.example.com".',
+	url: 'Inserire un indirizzo valido. Per esempio "http://www.example.com".',
 	currencyDollar: 'Inserire un importo valido. Per esempio "$100.00".',
 	oneRequired: 'Completare almeno uno dei campi richiesti.',
 	errorPrefix: 'Errore: ',
@@ -12251,7 +12251,7 @@ Locale.define('nl-NL', 'FormValidator', {
 	dateSuchAs: 'Vul een geldige datum in, zoals {date}',
 	dateInFormatMDY: 'Vul een geldige datum, in het formaat MM/DD/YYYY (bijvoorbeeld "12/31/1999")',
 	email: 'Vul een geldig e-mailadres in. Bijvoorbeeld "fred@domein.nl".',
-	url: 'Vul een geldige URL in, zoals https://www.example.com.',
+	url: 'Vul een geldige URL in, zoals http://www.example.com.',
 	currencyDollar: 'Vul een geldig $ bedrag in. Bijvoorbeeld $100.00 .',
 	oneRequired: 'Vul iets in bij in ieder geval een van deze velden.',
 	warningPrefix: 'Waarschuwing: ',
@@ -12376,7 +12376,7 @@ Locale.define('no-NO', 'FormValidator', {
 	dateSuchAs: 'Vennligst skriv inn en gyldig dato, som {date}',
 	dateInFormatMDY: 'Vennligst skriv inn en gyldig dato, i formatet MM/DD/YYYY (for eksempel "12/31/1999")',
 	email: 'Vennligst skriv inn en gyldig epost-adresse. For eksempel "espen@domene.no".',
-	url: 'Vennligst skriv inn en gyldig URL, for eksempel https://www.example.com.',
+	url: 'Vennligst skriv inn en gyldig URL, for eksempel http://www.example.com.',
 	currencyDollar: 'Vennligst fyll ut et gyldig $ belÃ¸p. For eksempel $100.00 .',
 	oneRequired: 'Vennligst fyll ut noe i minst ett av disse feltene.',
 	errorPrefix: 'Feil: ',
@@ -12477,7 +12477,7 @@ Locale.define('pl-PL', 'FormValidator', {
 	dateSuchAs: 'Prosimy podać prawidłową datę w formacie: {date}',
 	dateInFormatMDY: 'Prosimy podać poprawną date w formacie DD.MM.RRRR (i.e. "12.01.2009")',
 	email: 'Prosimy podać prawidłowy adres e-mail, np. "jan@domena.pl".',
-	url: 'Prosimy podać prawidłowy adres URL, np. https://www.example.com.',
+	url: 'Prosimy podać prawidłowy adres URL, np. http://www.example.com.',
 	currencyDollar: 'Prosimy podać prawidłową sumę w PLN. Dla przykładu: 100.00 PLN.',
 	oneRequired: 'Prosimy wypełnić chociaż jedno z pól.',
 	errorPrefix: 'Błąd: ',
@@ -12631,7 +12631,7 @@ Locale.define('pt-BR', 'FormValidator', {
 	dateSuchAs: 'Digite uma data válida, como {date}',
 	dateInFormatMDY: 'Digite uma data válida, como DD/MM/YYYY (por exemplo, "31/12/1999")',
 	email: 'Digite um endereço de email válido. Por exemplo "nome@dominio.com".',
-	url: 'Digite uma URL válida. Exemplo: https://www.example.com.',
+	url: 'Digite uma URL válida. Exemplo: http://www.example.com.',
 	currencyDollar: 'Digite um valor em dinheiro válido. Exemplo: R$100,00 .',
 	oneRequired: 'Digite algo para pelo menos um desses campos.',
 	errorPrefix: 'Erro: ',
@@ -12688,7 +12688,7 @@ Locale.define('pt-PT', 'FormValidator', {
 	dateSuchAs: 'Digite uma data válida, como {date}',
 	dateInFormatMDY: 'Digite uma data válida, como DD/MM/YYYY (p.ex. "31/12/1999")',
 	email: 'Digite um endereço de email válido. Por exemplo "fred@domain.com".',
-	url: 'Digite uma URL válida, como https://www.example.com.',
+	url: 'Digite uma URL válida, como http://www.example.com.',
 	currencyDollar: 'Digite um valor válido $. Por exemplo $ 100,00. ',
 	oneRequired: 'Digite algo para pelo menos um desses insumos.',
 	errorPrefix: 'Erro: ',
@@ -12720,7 +12720,7 @@ provides: [Locale.ru-RU.Date]
 
 (function(){
 
-// Russian language pluralization rules, taken from CLDR project, https://unicode.org/cldr/
+// Russian language pluralization rules, taken from CLDR project, http://unicode.org/cldr/
 // one -> n mod 10 is 1 and n mod 100 is not 11;
 // few -> n mod 10 in 2..4 and n mod 100 not in 12..14;
 // many -> n mod 10 is 0 or n mod 10 in 5..9 or n mod 100 in 11..14;
@@ -12830,7 +12830,7 @@ Locale.define('ru-RU', 'FormValidator', {
 	dateSuchAs: 'Пожалуйста, введите корректную дату {date}',
 	dateInFormatMDY: 'Пожалуйста, введите дату в формате ММ/ДД/ГГГГ (например "12/31/1999")',
 	email: 'Пожалуйста, введите корректный емейл-адрес. Для примера "fred@domain.com".',
-	url: 'Пожалуйста, введите правильную ссылку вида https://www.example.com.',
+	url: 'Пожалуйста, введите правильную ссылку вида http://www.example.com.',
 	currencyDollar: 'Пожалуйста, введите сумму в долларах. Например: $100.00 .',
 	oneRequired: 'Пожалуйста, выберите хоть что-нибудь в одном из этих полей.',
 	errorPrefix: 'Ошибка: ',
@@ -12955,7 +12955,7 @@ Locale.define('si-SI', 'FormValidator', {
 	dateSuchAs: 'Prosim, vnesite pravilen datum kot {date}',
 	dateInFormatMDY: 'Prosim, vnesite pravilen datum kot MM.DD.YYYY (primer "12.31.1999")',
 	email: 'Prosim, vnesite pravilen email naslov. Na primer "fred@domain.com".',
-	url: 'Prosim, vnesite pravilen URL kot https://www.example.com.',
+	url: 'Prosim, vnesite pravilen URL kot http://www.example.com.',
 	currencyDollar: 'Prosim, vnesit epravilno vrednost €. Primer 100,00€ .',
 	oneRequired: 'Prosimo, vnesite nekaj za vsaj eno izmed teh polj.',
 	errorPrefix: 'Napaka: ',
@@ -13069,7 +13069,7 @@ Locale.define('sv-SE', 'FormValidator', {
 	dateSuchAs: 'Ange ett giltigt datum som t.ex. {date}',
 	dateInFormatMDY: 'Ange ett giltigt datum som t.ex. YYYY-MM-DD (i.e. "1999-12-31")',
 	email: 'Ange en giltig e-postadress. Till exempel "erik@domain.com".',
-	url: 'Ange en giltig webbadress som https://www.example.com.',
+	url: 'Ange en giltig webbadress som http://www.example.com.',
 	currencyDollar: 'Ange en giltig belopp. Exempelvis 100,00.',
 	oneRequired: 'Vänligen ange minst ett av dessa alternativ.',
 	errorPrefix: 'Fel: ',
@@ -13209,7 +13209,7 @@ Locale.define('uk-UA', 'FormValidator', {
 	dateSuchAs: 'Введіть коректну дату {date}.',
 	dateInFormatMDY: 'Введіть дату в форматі ММ/ДД/РРРР (наприклад "12/31/2009").',
 	email: 'Введіть коректну адресу електронної пошти (наприклад "name@domain.com").',
-	url: 'Введіть коректне інтернет-посилання (наприклад https://www.example.com).',
+	url: 'Введіть коректне інтернет-посилання (наприклад http://www.example.com).',
 	currencyDollar: 'Введіть суму в доларах (наприклад "$100.00").',
 	oneRequired: 'Заповніть одне з полів.',
 	errorPrefix: 'Помилка: ',
@@ -13386,7 +13386,7 @@ Locale.define('zh-CHS', 'FormValidator', {
 	dateSuchAs: '请输入合法的日期格式，如：{date}。',
 	dateInFormatMDY: '请输入合法的日期格式，例如：YYYY-MM-DD ("2010-12-31")。',
 	email: '请输入合法的电子信箱地址，例如："fred@domain.com"。',
-	url: '请输入合法的 Url 地址，例如：https://www.example.com。',
+	url: '请输入合法的 Url 地址，例如：http://www.example.com。',
 	currencyDollar: '请输入合法的货币符号，例如：￥100.0',
 	oneRequired: '请至少选择一项。',
 	errorPrefix: '错误：',
@@ -13423,7 +13423,7 @@ Locale.define('zh-CHT', 'FormValidator', {
 	dateSuchAs: '請輸入合法的日期格式，如：{date}。 ',
 	dateInFormatMDY: '請輸入合法的日期格式，例如：YYYY-MM-DD ("2010-12-31")。 ',
 	email: '請輸入合法的電子信箱地址，例如："fred@domain.com"。 ',
-	url: '請輸入合法的Url 地址，例如：https://www.example.com。 ',
+	url: '請輸入合法的Url 地址，例如：http://www.example.com。 ',
 	currencyDollar: '請輸入合法的貨幣符號，例如：￥100.0',
 	oneRequired: '請至少選擇一項。 ',
 	errorPrefix: '錯誤：',

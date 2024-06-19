@@ -1,9 +1,9 @@
 <?php 
 /**
 * @package   Widgetkit Bonus Styles
-* @author    YOOtheme https://www.yootheme.com
+* @author    YOOtheme http://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   YOOtheme Proprietary Use License (https://www.yootheme.com/license)
+* @license   YOOtheme Proprietary Use License (http://www.yootheme.com/license)
 */
 
 	$widget_id = $widget->id.'-'.uniqid();

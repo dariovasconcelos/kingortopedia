@@ -1,4 +1,4 @@
-/* CodeMirror main module (https://codemirror.net/)
+/* CodeMirror main module (http://codemirror.net/)
  *
  * Implements the CodeMirror constructor and prototype, which take care
  * of initializing the editor frame, and providing the outside interface.
@@ -23,7 +23,7 @@ var CodeMirror = (function(){
   }
   function createHTMLElement(el) {
     if (document.createElementNS && document.documentElement.namespaceURI !== null)
-      return document.createElementNS("https://www.w3.org/1999/xhtml", el)
+      return document.createElementNS("http://www.w3.org/1999/xhtml", el)
     else
       return document.createElement(el)
   }
@@ -101,7 +101,7 @@ var CodeMirror = (function(){
       options.stylesheet = [options.stylesheet];
 
     var sp = " spellcheck=\"" + (options.disableSpellcheck ? "false" : "true") + "\"";
-    var html = ["<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"https://www.w3.org/TR/html4/loose.dtd\"><html" + sp + "><head>"];
+    var html = ["<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"><html" + sp + "><head>"];
     // Hack to work around a bunch of IE8-specific problems.
     html.push("<meta http-equiv=\"X-UA-Compatible\" content=\"IE=EmulateIE7\"/>");
     var queryStr = options.noScriptCaching ? "?nocache=" + new Date().getTime().toString(16) : "";

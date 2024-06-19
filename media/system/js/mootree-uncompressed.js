@@ -1,7 +1,7 @@
 /*
 Script: mootree.js
 	My Object Oriented Tree
-	- Developed by Rasmus Schultz, <https://www.mindplay.dk>
+	- Developed by Rasmus Schultz, <http://www.mindplay.dk>
 	- Tested with MooTools release 1.2, under Firefox 2, Opera 9 and Internet Explorer 6 and 7.
 
 License:
@@ -9,8 +9,8 @@ License:
 
 Credits:
 	Inspired by:
-	- WebFX xTree, <https://webfx.eae.net/dhtml/xtree/>
-	- Destroydrop dTree, <https://www.destroydrop.com/javascripts/tree/>
+	- WebFX xTree, <http://webfx.eae.net/dhtml/xtree/>
+	- Destroydrop dTree, <http://www.destroydrop.com/javascripts/tree/>
 
 Changes:
 
@@ -28,7 +28,7 @@ Changes:
 	rev.15:
 	- adopt() now picks up 'href', 'target', 'title' and 'name' attributes of the a-tag, and stores them in the data object.
 	- adopt() now picks up additional constructor arguments from embedded comments, e.g. icons, colors, etc.
-	- documentation now generates properly with NaturalDocs, <https://www.naturaldocs.org/>
+	- documentation now generates properly with NaturalDocs, <http://www.naturaldocs.org/>
 
 	rev.16:
 	- onClick events added to MooTreeControl and MooTreeNode

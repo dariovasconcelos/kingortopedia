@@ -4,8 +4,8 @@
  * Copyright 2009, Moxiecode Systems AB
  * Released under LGPL License.
  *
- * License: https://tinymce.moxiecode.com/license
- * Contributing: https://tinymce.moxiecode.com/contributing
+ * License: http://tinymce.moxiecode.com/license
+ * Contributing: http://tinymce.moxiecode.com/contributing
  */
 
 function MCTabs() {

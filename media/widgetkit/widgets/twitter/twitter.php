@@ -1,9 +1,9 @@
 <?php
 /**
 * @package   Widgetkit
-* @author    YOOtheme https://www.yootheme.com
+* @author    YOOtheme http://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 /*
@@ -134,7 +134,7 @@ class TwitterWidgetkitHelper extends WidgetkitHelper {
 		// build timeline url
 		if ($from_user && !strpos($from_user, ' ') && count($query) == 1) {
 
-			$url = 'https://twitter.com/statuses/user_timeline/'.strtolower($from_user).'.json';
+			$url = 'http://twitter.com/statuses/user_timeline/'.strtolower($from_user).'.json';
 
 			if ($limit > 15) {
 				$url .= '?count='.$limit;
@@ -146,7 +146,7 @@ class TwitterWidgetkitHelper extends WidgetkitHelper {
 		// build search url
 		if (count($query)) {
 
-			$url = 'https://search.twitter.com/search.json?q='.urlencode(implode(' ', $query));
+			$url = 'http://search.twitter.com/search.json?q='.urlencode(implode(' ', $query));
 
 			if ($limit > 15) {
 				$url .= '&rpp='.$limit;
@@ -251,19 +251,19 @@ class WidgetkitTweet {
 	public $created_at;
 
 	public function getLink() {
-		return 'https://www.twitter.com/'.$this->user;			
+		return 'http://www.twitter.com/'.$this->user;			
 	}
 
 	public function getStatusLink() {
-		return 'https://twitter.com/'.$this->user.'/statuses/'.$this->id;			
+		return 'http://twitter.com/'.$this->user.'/statuses/'.$this->id;			
 	}
 
 	public function getText() {
 
 		// format text
 		$text = preg_replace('@(https?://([-\w\.]+)+(/([\w/_\.]*(\?\S+)?(#\S+)?)?)?)@', '<a href="$1">$1</a>', $this->text);
-		$text = preg_replace('/@(\w+)/', '<a href="https://twitter.com/$1">@$1</a>', $text);
-		$text = preg_replace('/\s+#(\w+)/', ' <a href="https://search.twitter.com/search?q=%23$1">#$1</a>', $text);
+		$text = preg_replace('/@(\w+)/', '<a href="http://twitter.com/$1">@$1</a>', $text);
+		$text = preg_replace('/\s+#(\w+)/', ' <a href="http://search.twitter.com/search?q=%23$1">#$1</a>', $text);
 
 		return $text;			
 	}
