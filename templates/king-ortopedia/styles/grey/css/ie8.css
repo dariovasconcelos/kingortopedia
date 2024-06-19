@@ -1,0 +1,30 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/ie8.css);
+
+
+.mod-box-color {
+	border-color: #546B80;
+	border-bottom-color: #425363;
+}
+
+.mod-box-color ul.line > li { border-top-color: #546B80; }
+
+.mod-box-color table.zebra thead th { border-top-color: #546B80; }
+
+.mod-box-color table.zebra { border-color: #546B80;  }
+
+.mod-box-color ul.zebra > li,
+.mod-box-color table.zebra tbody td { border-bottom-color: #546B80; }
+
+.mod-box-color ul.zebra > li:first-child,
+.mod-box-color table.zebra tbody tr:first-child td { border-top-color: #546B80;  }
+
+.mod-box-color table.zebra tfoot td { border-bottom-color: #546B80; }
+
+.mod-box-color table.zebra tr td,
+.mod-box-color table.zebra tr th {	border-left-color: #546B80; }
+
+.mod-box-color ul.zoo-list > li,
+.mod-box-color .zoo-comments-list > article  { border-top-color: #546B80; }
+

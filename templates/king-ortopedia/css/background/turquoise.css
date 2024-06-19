@@ -1,0 +1,16 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body#page { background: #d7dfde; }
+
+.mod-headline { text-shadow: 0 1px rgba(255,255,255,0.7); }
+
+.mod-headline .module-title {
+    color: #F6F7F6;
+    text-shadow: 0 -1px rgba(0,0,0,0.2);
+}
+
+.mod-box-grey {
+	border-color: rgba(0,0,0,0.15);
+	border-bottom-color: rgba(0,0,0,0.25);
+}
+

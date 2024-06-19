@@ -1,0 +1,20 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.pricing thead th { font-family: "SquadaOneRegular"; }
+
+h1 { font-size: 28px; }
+
+h2 { font-size: 24px; }
+
+h3,
+.mod-box .module-title { font-size: 20px; }
+
+.pricing thead th { font-size: 24px; }
+
+.wk-slideshow-sync .frontpage-teaser h1 { font-size: 40px; }

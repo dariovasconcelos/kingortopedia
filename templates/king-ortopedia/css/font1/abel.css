@@ -1,0 +1,16 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body { 
+	font-family: "AbelRegular";
+	font-size: 16px;
+}
+
+code,
+.button-default, 
+.button-primary, 
+.button-black,
+table.zebra tbody, 
+table.zebra tfoot,
+#system .item > .links a { font-size: 14px; }
+
+.searchbox .results li.result div { font-size: 13px; }

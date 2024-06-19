@@ -1,0 +1,16 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body#page { background: #cbc8c0 url(../../images/background/tartan/tartan_bg.jpg) 0 0 repeat; }
+
+.mod-headline { text-shadow: 0 1px rgba(255,255,255,0.5); }
+
+.mod-headline .module-title {
+    color: #56595E;
+    text-shadow: 0 1px rgba(255,255,255,0.5);
+}
+
+.mod-box-grey {
+	border-color: rgba(0,0,0,0.15);
+	border-bottom-color: rgba(0,0,0,0.25);
+}
+

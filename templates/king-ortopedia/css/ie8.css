@@ -1,0 +1,141 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie8.css);
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Custom
+----------------------------------------------------------------------------------------------------*/
+
+.custom-logo { min-width: 163px }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#header {
+	border-color: #D6D6D7;
+	border-bottom-color: #bbbbbb;
+}
+
+#content {
+	border-color: #D6D6D7;
+	border-bottom-color: #bbbbbb;
+}
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Drop-Down */
+
+.menu-dropdown .dropdown {
+	border-top-color: #D6D6D7;
+}
+
+.menu-dropdown .dropdown-bg > div {
+	border-left-color: #D6D6D7;
+	border-right-color: #D6D6D7;
+	border-bottom-color: #bbbbbb;
+}
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box,
+.mod-box-header,
+.mod-box-grey,
+.mod-box-greyheader {
+	border-color: #D6D6D7;
+	border-bottom-color: #bbbbbb;
+}
+
+.mod-box-black,
+.mod-box-blackheader {
+	border-color: #474747;
+	border-bottom-color: #1B1B1B;
+}
+
+.mod-box-color,
+.mod-box-colorheader {
+	border-color: #378CD5;
+	border-bottom-color: #29679D;
+}
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box-black ul.line > li { border-top-color: #47494D; }
+
+.mod-box-color ul.line > li { border-top-color: #3587CD; }
+
+table.zebra { border-right-color: #d1d1d1; }
+
+table.zebra thead th { border-top-color: #d1d1d1; }
+.mod-box-black table.zebra thead th { border-top-color: #47494D; }
+.mod-box-color table.zebra thead th { border-top-color: #3587CD; }
+
+.mod-box-black table.zebra { border-color: #47494D; }
+.mod-box-color table.zebra { border-color: #3587CD;  }
+
+.mod-box-black ul.zebra > li,
+.mod-box-black table.zebra tbody td { border-bottom-color: #47494D; }
+
+.mod-box-color ul.zebra > li,
+.mod-box-color table.zebra tbody td { border-bottom-color: #3587CD; }
+
+.mod-box-black ul.zebra > li:first-child,
+.mod-box-black table.zebra tbody tr:first-child td { border-top-color: #47494D;  }
+
+.mod-box-color ul.zebra > li:first-child,
+.mod-box-color table.zebra tbody tr:first-child td { border-top-color: #3587CD;  }
+
+table.zebra tfoot td { border-bottom-color: #d1d1d1; }
+.mod-box-black table.zebra tfoot td { border-bottom-color: #47494D; }
+.mod-box-color table.zebra tfoot td { border-bottom-color: #3587CD; }
+
+table.zebra tr td,
+table.zebra tr th {	border-left-color: #d1d1d1; }
+.mod-box-color table.zebra tr td,
+.mod-box-color table.zebra tr th {	border-left-color: #3587CD; }
+.mod-box-black table.zebra tr td,
+.mod-box-black table.zebra tr th {	border-left-color: #47494D; }
+
+.mod-box-black ul.zoo-list > li,
+.mod-box-black .zoo-comments-list > article { border-top-color: #47494D; }
+.mod-box-color ul.zoo-list > li,
+.mod-box-color .zoo-comments-list > article  { border-top-color: #3587CD; }
+
+.pricing {
+	border-color: #D6D6D7;
+	border-bottom-color: #bbbbbb;
+}
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+.searchbox input { line-height: 26px; }
+
+.searchbox .results {
+	border-color: #D6D6D7;
+	border-bottom: 1px solid #bbbbbb;
+}
+
+.searchbox .results li.result:hover + li { border-top: none; }
+
+/* Style
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Widgetkit
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-sync > div { 
+	border-color: #D6D6D7;
+	border-bottom-color: #bbbbbb;
+}
+

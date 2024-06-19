@@ -1,0 +1,6 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body { font-family: "LatoRegular"; }
+
+table.zebra tbody, 
+table.zebra tfoot { font-size: 13px; }
