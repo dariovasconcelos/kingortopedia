@@ -7,8 +7,8 @@
  * @package	Joomla
  * @subpackage	Content
  * @copyright	Copyright (C) Adonay R. M. All rights reserved.
- * @author	Adonay R. M. -> http://adonay.name/
- * @license	http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @author	Adonay R. M. -> https://adonay.name/
+ * @license	https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
  * INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
@@ -62,7 +62,7 @@ class plgContentDisclaimer extends JPlugin
 		// obtener redireccion url
 		$redir = $parametros->get ('redir');
 
-		if (empty ($redir)) $redir = 'http://adonay.name/';
+		if (empty ($redir)) $redir = 'https://adonay.name/';
 
 		// color de fondo del popup
 		$fondo = $parametros->get ('fondo');
@@ -102,7 +102,7 @@ class plgContentDisclaimer extends JPlugin
 
 		// contenedor del html
 		$contenido = '	<!--
-				Content Disclaimer - Adonay http://adonay.name/ -->
+				Content Disclaimer - Adonay https://adonay.name/ -->
 				<div id="popup">
 				 <div id="dialog" class="window" style="background-color: '.$fondo.';">
 				  <div id="logopopup" style="background: '.$imagen.';"></div>
@@ -114,7 +114,7 @@ class plgContentDisclaimer extends JPlugin
 				 </div>
 				 <div style="opacity: 0.9;" id="mascara"></div>
 				</div>
-				<!-- end Adonay http://adonay.name/ --> ';
+				<!-- end Adonay https://adonay.name/ --> ';
 		return $contenido;
 	}
 }

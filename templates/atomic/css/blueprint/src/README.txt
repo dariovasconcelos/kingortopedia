@@ -12,10 +12,10 @@ Welcome to Blueprint! This is a CSS framework designed to cut down on your CSS d
 
 h2. Project Info
 
-* *Web*: "http://blueprintcss.org":http://blueprintcss.org
-* *Source*: "http://github.com/joshuaclayton/blueprint-css":http://github.com/joshuaclayton/blueprint-css
-* *Wiki*: "http://github.com/joshuaclayton/blueprint-css/wikis/home":http://github.com/joshuaclayton/blueprint-css/wikis/home
-* *Bug/Feature Tracking*: "http://blueprintcss.lighthouseapp.com":http://blueprintcss.lighthouseapp.com
+* *Web*: "https://blueprintcss.org":https://blueprintcss.org
+* *Source*: "https://github.com/joshuaclayton/blueprint-css":https://github.com/joshuaclayton/blueprint-css
+* *Wiki*: "https://github.com/joshuaclayton/blueprint-css/wikis/home":https://github.com/joshuaclayton/blueprint-css/wikis/home
+* *Bug/Feature Tracking*: "https://blueprintcss.lighthouseapp.com":https://blueprintcss.lighthouseapp.com
 
 h2. Setup Instructions
 
@@ -34,9 +34,9 @@ Remember to include trailing slashes (" />") in these lines if you're using XHTM
 
 h2. Tutorials
 
-* "How to customize BP with the compressor script":http://jdclayton.com/blueprints_compress_a_walkthrough.html
-* "How to use a grid in a layout":http://subtraction.com/2007/03/18/oh-yeeaahh
-* "How to use a baseline in your typography":http://alistapart.com/articles/settingtypeontheweb
+* "How to customize BP with the compressor script":https://jdclayton.com/blueprints_compress_a_walkthrough.html
+* "How to use a grid in a layout":https://subtraction.com/2007/03/18/oh-yeeaahh
+* "How to use a baseline in your typography":https://alistapart.com/articles/settingtypeontheweb
 
 h2. Files in Blueprint
 

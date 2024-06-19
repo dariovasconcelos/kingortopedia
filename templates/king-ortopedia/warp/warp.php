@@ -1,9 +1,9 @@
 <?php
 /**
 * @package   Warp Theme Framework
-* @author    YOOtheme http://www.yootheme.com
+* @author    YOOtheme https://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 // init vars
@@ -16,7 +16,7 @@ require_once($path.'/helpers/path.php');
 class Warp implements ArrayAccess {
 
 	/* branding */
-	protected $_branding = 'Powered by <a href="http://www.yootheme.com">Warp Theme Framework</a>';
+	protected $_branding = 'Powered by <a href="https://www.yootheme.com">Warp Theme Framework</a>';
 
     /* helpers */
 	protected $_helpers = array();

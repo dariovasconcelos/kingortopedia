@@ -1,14 +1,14 @@
 <?php
 /**
 * @package   Warp Theme Framework
-* @author    YOOtheme http://www.yootheme.com
+* @author    YOOtheme https://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 /*
 	Class: SystemWarpHelper
-		Joomla! system helper class, provides Joomla! 1.7 CMS integration (http://www.joomla.org)
+		Joomla! system helper class, provides Joomla! 1.7 CMS integration (https://www.joomla.org)
 */
 class SystemWarpHelper extends WarpHelper {
 

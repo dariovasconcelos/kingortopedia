@@ -6,7 +6,7 @@ defined('_JEXEC') or die;
  * css.php
  * -------
  * Author: Nigel McNie (nigel@geshi.org)
- * Copyright: (c) 2004 Nigel McNie (http://qbnz.com/highlighter/)
+ * Copyright: (c) 2004 Nigel McNie (https://qbnz.com/highlighter/)
  * Release Version: 1.0.8.10
  * Date Started: 2004/06/18
  *

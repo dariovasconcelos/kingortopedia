@@ -1,6 +1,6 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 /*  AES implementation in JavaScript (c) Chris Veness 2005-2010                                   */
-/*   - see http://csrc.nist.gov/publications/PubsFIPS.html#197                                    */
+/*   - see https://csrc.nist.gov/publications/PubsFIPS.html#197                                    */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 var Aes = {};  // Aes namespace
@@ -162,7 +162,7 @@ Aes.Rcon = [ [0x00, 0x00, 0x00, 0x00],
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 /*  AES Counter-mode implementation in JavaScript (c) Chris Veness 2005-2010                      */
-/*   - see http://csrc.nist.gov/publications/nistpubs/800-38a/sp800-38a.pdf                       */
+/*   - see https://csrc.nist.gov/publications/nistpubs/800-38a/sp800-38a.pdf                       */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 var AesCtr = {};  // AesCtr namespace
@@ -316,7 +316,7 @@ var Base64 = {};  // Base64 namespace
 Base64.code = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
 
 /**
- * Encode string into Base64, as defined by RFC 4648 [http://tools.ietf.org/html/rfc4648]
+ * Encode string into Base64, as defined by RFC 4648 [https://tools.ietf.org/html/rfc4648]
  * (instance method extending String object). As per RFC 4648, no newlines are added.
  *
  * @param {String} str The string to be encoded as base-64
@@ -324,7 +324,7 @@ Base64.code = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=
  *   to UTF8 before conversion to base64; otherwise string is assumed to be 8-bit characters
  * @returns {String} Base64-encoded string
  */ 
-Base64.encode = function(str, utf8encode) {  // http://tools.ietf.org/html/rfc4648
+Base64.encode = function(str, utf8encode) {  // https://tools.ietf.org/html/rfc4648
   utf8encode =  (typeof utf8encode == 'undefined') ? false : utf8encode;
   var o1, o2, o3, bits, h1, h2, h3, h4, e=[], pad = '', c, plain, coded;
   var b64 = Base64.code;
@@ -359,7 +359,7 @@ Base64.encode = function(str, utf8encode) {  // http://tools.ietf.org/html/rfc46
 }
 
 /**
- * Decode string from Base64, as defined by RFC 4648 [http://tools.ietf.org/html/rfc4648]
+ * Decode string from Base64, as defined by RFC 4648 [https://tools.ietf.org/html/rfc4648]
  * (instance method extending String object). As per RFC 4648, newlines are not catered for.
  *
  * @param {String} str The string to be decoded from base-64

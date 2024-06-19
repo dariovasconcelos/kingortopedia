@@ -1,9 +1,9 @@
 <?php
 /**
 * @package   Warp Theme Framework
-* @author    YOOtheme http://www.yootheme.com
+* @author    YOOtheme https://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 /*
@@ -57,22 +57,22 @@ class CheckWarpHelper extends WarpHelper {
 		$required = '5.2.7';
 
         if (version_compare($required, $current, '>=')) {
-           $this->issues['critical'][] = "<a href=\"http://php.net\">PHP</a> version {$current} is too old. Make sure to install {$required} or newer.";
+           $this->issues['critical'][] = "<a href=\"https://php.net\">PHP</a> version {$current} is too old. Make sure to install {$required} or newer.";
         }
 
         // check json support
         if (!function_exists('json_decode')) {
-           $this->issues['critical'][] = 'No <a href="http://php.net/manual/en/book.json.php">JSON</a> support available.';
+           $this->issues['critical'][] = 'No <a href="https://php.net/manual/en/book.json.php">JSON</a> support available.';
         }
 
 		// check dom xml support
         if (!class_exists('DOMDocument')) {
-           $this->issues['critical'][] = 'No <a href="http://www.php.net/manual/en/book.dom.php">DOM XML</a> support available.';
+           $this->issues['critical'][] = 'No <a href="https://www.php.net/manual/en/book.dom.php">DOM XML</a> support available.';
         }
 
 		// check multibyte string support
         if (!extension_loaded('mbstring')) {
-           $this->issues['notice'][] = 'No <a href="http://php.net/manual/en/book.mbstring.php">Multibyte string (mbstring)</a> support available.';
+           $this->issues['notice'][] = 'No <a href="https://php.net/manual/en/book.mbstring.php">Multibyte string (mbstring)</a> support available.';
         }
 
     }

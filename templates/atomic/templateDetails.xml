@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
 <extension
 	version="2.5"
 	type="template"
@@ -8,7 +8,7 @@
 	<creationDate>10/10/09</creationDate>
 	<author>Ron Severdia</author>
 	<authorEmail>contact@kontentdesign.com</authorEmail>
-	<authorUrl>http://www.kontentdesign.com</authorUrl>
+	<authorUrl>https://www.kontentdesign.com</authorUrl>
 	<copyright>Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<version>2.5.0</version>

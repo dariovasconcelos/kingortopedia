@@ -31,11 +31,11 @@ $templateparams	= $app->getTemplate(true)->params;
 $doc->addScript($this->baseurl.'/templates/'.$this->template.'/javascript/md_stylechanger.js', 'text/javascript', true);
 ?>
 <?php if(!$templateparams->get('html5', 0)): ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php else: ?>
 	<?php echo '<!DOCTYPE html>'; ?>
 <?php endif; ?>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>" >
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>" >
 	<head>
 		<jdoc:include type="head" />
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
@@ -267,7 +267,7 @@ $doc->addScript($this->baseurl.'/templates/'.$this->template.'/javascript/md_sty
 
 					<jdoc:include type="modules" name="position-14" />
 					<p>
-						<?php echo JText::_('TPL_BEEZ5_POWERED_BY');?> <a href="http://www.joomla.org/">Joomla!&#174;</a>
+						<?php echo JText::_('TPL_BEEZ5_POWERED_BY');?> <a href="https://www.joomla.org/">Joomla!&#174;</a>
 					</p>
 
 			<?php if (!$templateparams->get('html5', 0)): ?>

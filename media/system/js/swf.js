@@ -1,8 +1,8 @@
 /*
 		MIT License
 
- @author		Harald Kirschner <http://digitarald.de>
- @author		Valerio Proietti, <http://mad4milk.net>
+ @author		Harald Kirschner <https://digitarald.de>
+ @author		Valerio Proietti, <https://mad4milk.net>
  @copyright	Authors
 */
 Swiff.Uploader=new Class({Extends:Swiff,Implements:Events,options:{path:"Swiff.Uploader.swf",target:null,zIndex:9999,callBacks:null,params:{wMode:"opaque",menu:"false",allowScriptAccess:"always"},typeFilter:null,multiple:!0,queued:!0,verbose:!1,height:30,width:100,passStatus:null,url:null,method:null,data:null,mergeData:!0,fieldName:null,fileSizeMin:1,fileSizeMax:null,allowDuplicates:!1,timeLimit:Browser.Platform.linux?0:30,policyFile:null,buttonImage:null,fileListMax:0,fileListSizeMax:0,instantStart:!1,

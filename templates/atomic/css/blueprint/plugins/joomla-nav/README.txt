@@ -39,4 +39,4 @@ You can mark the currently selected item with the class @"selected"@.
 
 h2. Demo:
 
-View a demo at "blueprintcss.org":http://blueprintcss.org/demos/tabs.html
+View a demo at "blueprintcss.org":https://blueprintcss.org/demos/tabs.html

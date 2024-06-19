@@ -2,7 +2,7 @@
 /**
  * @package        JFBConnect
  * @copyright (C) 2009-2012 by Source Coast - All rights reserved
- * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @license https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  */
 // Check to ensure this file is included in Joomla!
 defined('_JEXEC') or die('Restricted access');
@@ -100,13 +100,13 @@ class plgSystemJFBCSystem extends JPlugin
             $configModel = $this->jfbcLibrary->getConfigModel();
             $openGraphEnabled = $configModel->getSetting('social_graph_enabled');
             if ($openGraphEnabled)
-                $openGraphNamespace = 'xmlns:og="http://ogp.me/ns#" ';
+                $openGraphNamespace = 'xmlns:og="https://ogp.me/ns#" ';
             else
                 $openGraphNamespace = '';
 
 
             $body = JResponse::getBody();
-            $body = str_replace("<html ", '<html xmlns:fb="http://ogp.me/ns/fb#" ' . $openGraphNamespace, $body);
+            $body = str_replace("<html ", '<html xmlns:fb="https://ogp.me/ns/fb#" ' . $openGraphNamespace, $body);
 
             $fbApiJs = $this->_getJavascript($this->jfbcLibrary->facebookAppId);
 
@@ -652,7 +652,7 @@ EOT;
 
         if ($href)
             $commentString .= ' href="' . $href . '"';
-        else if ($xid) //Use deprecated xid to keep old comments: http://developers.facebook.com/blog/post/472
+        else if ($xid) //Use deprecated xid to keep old comments: https://developers.facebook.com/blog/post/472
             $commentString .= ' xid="' . $xid . '" migrated="1"';
         else
         {
@@ -748,7 +748,7 @@ EOT;
 
                     switch ($paramValues[0])
                     {
-                        case 'height': //Not shown - http://developers.facebook.com/docs/reference/plugins/like-box/
+                        case 'height': //Not shown - https://developers.facebook.com/docs/reference/plugins/like-box/
                             $height = $paramValues[1];
                             break;
                         case 'width':
@@ -1278,7 +1278,7 @@ EOT;
             $url = JFBCSocialUtilities::getStrippedUrl();
 
         $tagButtonText = '<div class="sc_twittershare">';
-        $tagButtonText .= '<a href="http://twitter.com/share" class="twitter-share-button" ';
+        $tagButtonText .= '<a href="https://twitter.com/share" class="twitter-share-button" ';
 
         if ($url)
             $tagButtonText .= 'data-url="' . $url;

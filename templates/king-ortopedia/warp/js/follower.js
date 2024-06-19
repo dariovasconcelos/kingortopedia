@@ -1,4 +1,4 @@
-/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+/* Copyright (C) YOOtheme GmbH, https://www.gnu.org/licenses/gpl.html GNU/GPL */
 
 (function(d){var b=function(){};d.extend(b.prototype,{name:"follower",options:{activeClass:"active",hoveredClass:"isfollowing",slider:{"class":"fancyfollower",html:"<div></div>"},effect:{transition:"easeOutBack",duration:200}},initialize:function(a,e){this.options=d.extend({},this.options,e);var c=this;a.css("position","relative");this.current=null;d(a.children()).each(function(){d(this).bind({mouseenter:function(){c.slider.stop();c.slideTo(d(this),"enter")},mouseleave:function(){c.slideTo(c.current,
 "leave")},click:function(){c.setCurrent(d(this),true)}}).css({position:"relative"})});var b=a.children()[0].tagName.toLowerCase();a.append(d("<"+b+">").addClass(this.options.slider["class"]).html(this.options.slider.html));this.slider=a.find(">"+b+":last");this.setCurrent(a.find("."+this.options.activeClass+":first"));if(this.current)this.startElement=this.current},setCurrent:function(a,b){if(a.length&&!this.current){var c=a.position();this.slider.css({left:c.left,width:a.width(),height:a.height(),

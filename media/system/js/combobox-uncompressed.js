@@ -13,7 +13,7 @@ if (typeof(Joomla) === 'undefined') {
 /**
 * JCombobox JavaScript behavior.
 *
-* Inspired by: Subrata Chakrabarty <http://chakrabarty.com/editable_dropdown_samplecode.html>
+* Inspired by: Subrata Chakrabarty <https://chakrabarty.com/editable_dropdown_samplecode.html>
 *
 * @package		Joomla.JavaScript
 * @since		1.6

@@ -87,12 +87,12 @@ class plgContentEmailcloak extends JPlugin
 		$searchImage	=	"(<img[^>]+>)";
 
 		/*
-		 * Search and fix derivatives of link code <a href="http://mce_host/ourdirectory/email@amail.com"
+		 * Search and fix derivatives of link code <a href="https://mce_host/ourdirectory/email@amail.com"
 		 * >email@email.com</a>. This happens when inserting an email in TinyMCE, cancelling its suggestion to add
 		 * the mailto: prefix...
 		 */
 		$pattern = $this->_getPattern($searchEmail, $searchEmail);
-		$pattern = str_replace('"mailto:', '"http://mce_host([\x20-\x7f][^<>]+/)', $pattern);
+		$pattern = str_replace('"mailto:', '"https://mce_host([\x20-\x7f][^<>]+/)', $pattern);
 		while (preg_match($pattern, $text, $regs, PREG_OFFSET_CAPTURE)) {
 			$mail = $regs[2][0];
 			$mailText = $regs[3][0];
@@ -105,12 +105,12 @@ class plgContentEmailcloak extends JPlugin
 		}
 
 		/*
-		 * Search and fix derivatives of link code <a href="http://mce_host/ourdirectory/email@amail.com"
+		 * Search and fix derivatives of link code <a href="https://mce_host/ourdirectory/email@amail.com"
 		 * >anytext</a>. This happens when inserting an email in TinyMCE, cancelling its suggestion to add
 		 * the mailto: prefix...
 		 */
 		$pattern = $this->_getPattern($searchEmail, $searchText);
-		$pattern = str_replace('"mailto:', '"http://mce_host([\x20-\x7f][^<>]+/)', $pattern);
+		$pattern = str_replace('"mailto:', '"https://mce_host([\x20-\x7f][^<>]+/)', $pattern);
 		while (preg_match($pattern, $text, $regs, PREG_OFFSET_CAPTURE)) {
 			$mail = $regs[2][0];
 			$mailText = $regs[3][0];

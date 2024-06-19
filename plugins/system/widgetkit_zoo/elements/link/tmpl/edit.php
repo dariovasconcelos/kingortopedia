@@ -1,9 +1,9 @@
 <?php
 /**
 * @package   Widgetkit
-* @author    YOOtheme http://www.yootheme.com
+* @author    YOOtheme https://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 // no direct access
@@ -58,7 +58,7 @@ defined('_JEXEC') or die('Restricted access');
 		$('input[name="<?php echo $this->getControlName('value'); ?>"]').blur(function(){
 			var link = $(this).val();
 			if ((link.length > 0) && (link.indexOf(':') == -1)) {
-				$(this).val('http://' + link);
+				$(this).val('https://' + link);
 			}
 		});
 	});

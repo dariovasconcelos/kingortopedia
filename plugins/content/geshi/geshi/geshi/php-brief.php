@@ -6,7 +6,7 @@ defined('_JEXEC') or die;
  * php-brief.php
  * -------------
  * Author: Nigel McNie (nigel@geshi.org)
- * Copyright: (c) 2004 Nigel McNie (http://qbnz.com/highlighter/)
+ * Copyright: (c) 2004 Nigel McNie (https://qbnz.com/highlighter/)
  * Release Version: 1.0.8.10
  * Date Started: 2004/06/02
  *
@@ -163,7 +163,7 @@ $language_data = array (
     'URLS' => array(
         1 => '',
         2 => '',
-        3 => 'http://www.php.net/{FNAMEL}'
+        3 => 'https://www.php.net/{FNAMEL}'
         ),
     'OOLANG' => true,
     'OBJECT_SPLITTERS' => array(

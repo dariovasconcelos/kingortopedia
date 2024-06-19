@@ -1,9 +1,9 @@
 <?php
 /**
 * @package   Warp Theme Framework
-* @author    YOOtheme http://www.yootheme.com
+* @author    YOOtheme https://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 /*
@@ -400,7 +400,7 @@ class WarpAssetFilterCSSImageBase64 implements WarpAssetFilterInterface {
 /*
 	Class:  WarpAssetFilterCSSCompressor
 		Stylesheet compressor, minifies css
-		Based on Minify_CSS_Compressor (http://code.google.com/p/minify/, Stephen Clay <steve@mrclay.org>, New BSD License)
+		Based on Minify_CSS_Compressor (https://code.google.com/p/minify/, Stephen Clay <steve@mrclay.org>, New BSD License)
 */
 class WarpAssetFilterCSSCompressor implements WarpAssetFilterInterface {
 
@@ -432,11 +432,11 @@ class WarpAssetFilterCSSCompressor implements WarpAssetFilterInterface {
         $css = str_replace("\r\n", "\n", $css);
 
         // preserve empty comment after '>'
-        // http://www.webdevout.net/css-hacks#in_css-selectors
+        // https://www.webdevout.net/css-hacks#in_css-selectors
         $css = preg_replace('@>/\\*\\s*\\*/@', '>/*keep*/', $css);
 
         // preserve empty comment between property and value
-        // http://css-discuss.incutio.com/?page=BoxModelHack
+        // https://css-discuss.incutio.com/?page=BoxModelHack
         $css = preg_replace('@/\\*\\s*\\*/\\s*:@', '/*keep*/:', $css);
         $css = preg_replace('@:\\s*/\\*\\s*\\*/@', ':/*keep*/', $css);
 
@@ -509,7 +509,7 @@ class WarpAssetFilterCSSCompressor implements WarpAssetFilterInterface {
             /x'
             ,"$1\n", $css);
 
-        // prevent triggering IE6 bug: http://www.crankygeek.com/ie6pebug/
+        // prevent triggering IE6 bug: https://www.crankygeek.com/ie6pebug/
         $css = preg_replace('/:first-l(etter|ine)\\{/', ':first-l$1 {', $css);
 
         return trim($css);
@@ -547,12 +547,12 @@ class WarpAssetFilterCSSCompressor implements WarpAssetFilterInterface {
         }
 
         if ($m === '" "') {
-            // component of http://tantek.com/CSS/Examples/midpass.html
+            // component of https://tantek.com/CSS/Examples/midpass.html
             return '/*" "*/';
         }
 
         if (preg_match('@";\\}\\s*\\}/\\*\\s+@', $m)) {
-            // component of http://tantek.com/CSS/Examples/midpass.html
+            // component of https://tantek.com/CSS/Examples/midpass.html
             return '/*";}}/* */';
         }
 
@@ -623,7 +623,7 @@ class WarpAssetFilterCSSCompressor implements WarpAssetFilterInterface {
 /*
 	Class: WarpAssetFilterJSCompressor
 		Javascript compressor, minifies javascript
-		Based on JSMin (http://code.google.com/p/jsmin-php, 2008 Ryan Grove <ryan@wonko.com>, MIT License)
+		Based on JSMin (https://code.google.com/p/jsmin-php, 2008 Ryan Grove <ryan@wonko.com>, MIT License)
 */
 class WarpAssetFilterJSCompressor implements WarpAssetFilterInterface {
 

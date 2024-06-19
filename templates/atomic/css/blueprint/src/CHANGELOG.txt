@@ -26,7 +26,7 @@ Version 0.8 - Date November 11, 2008
     * Plugins from 0.6 are now back in the core [CMM]
 
   Bug fixes:
-    * Lots. See http://blueprintcss.lighthouseapp.com/projects/15318-blueprint-css
+    * Lots. See https://blueprintcss.lighthouseapp.com/projects/15318-blueprint-css
 
 
 Version 0.7.1 - Date February 21, 2008

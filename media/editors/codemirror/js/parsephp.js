@@ -164,7 +164,7 @@ var PHPParser = Editor.Parser = (function() {
           return token;
         }
       }
-      return 1; // Firebug workaround for http://code.google.com/p/fbug/issues/detail?id=1239#c1
+      return 1; // Firebug workaround for https://code.google.com/p/fbug/issues/detail?id=1239#c1
     }
 
     // This makes a copy of the parser state. It stores all the
@@ -383,7 +383,7 @@ var PHPParser = Editor.Parser = (function() {
       if(token.type == "variable") cont(maybedefaultparameter);
       else if(token.content == "&") cont(require("variable"), maybedefaultparameter);
     }
-    // support for default arguments: http://us.php.net/manual/en/functions.arguments.php#functions.arguments.default
+    // support for default arguments: https://us.php.net/manual/en/functions.arguments.php#functions.arguments.default
     function funcarg(token){
       // function foo(myclass $obj) {...} or function foo(myclass &objref) {...}
       if (token.type == "t_string") cont(var_or_reference);

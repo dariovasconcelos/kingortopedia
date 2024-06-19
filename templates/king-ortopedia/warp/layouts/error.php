@@ -1,9 +1,9 @@
 <?php
 /**
 * @package   Warp Theme Framework
-* @author    YOOtheme http://www.yootheme.com
+* @author    YOOtheme https://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 // prepare filters
@@ -27,11 +27,11 @@ $filters = $this['assetfilter']->create(array('CSSImportResolver', 'CSSRewriteUR
 		<h1 class="error">
 			<span>
 				<?php if (strtolower($error) == 'browser') { ?>
-					<a class="chrome" href="http://www.google.com/chrome" title="Download Chrome"></a>
-					<a class="firefox" href="http://www.mozilla.com" title="Download Firefox"></a>
-					<a class="opera" href="http://www.opera.com" title="Download Opera"></a>
-					<a class="safari" href="http://www.apple.com/safari" title="Download Safari"></a>
-					<a class="ie" href="http://www.microsoft.com/downloads" title="Download Internet Explorer 9"></a>
+					<a class="chrome" href="https://www.google.com/chrome" title="Download Chrome"></a>
+					<a class="firefox" href="https://www.mozilla.com" title="Download Firefox"></a>
+					<a class="opera" href="https://www.opera.com" title="Download Opera"></a>
+					<a class="safari" href="https://www.apple.com/safari" title="Download Safari"></a>
+					<a class="ie" href="https://www.microsoft.com/downloads" title="Download Internet Explorer 9"></a>
 				<?php } else { echo $error; } ?>
 			</span>
 		</h1>

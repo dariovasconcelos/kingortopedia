@@ -7,18 +7,18 @@ techniques found in the framework.
 h2. Current Team
 
 Blueprint was realized and maintained through version 0.7.1 by
-"Olav Bjorkoy":http://bjorkoy.com who has sinced passed the torch
+"Olav Bjorkoy":https://bjorkoy.com who has sinced passed the torch
 to the current team. They are:
 
 Admins:
-* "Christian Montoya":http://christianmontoya.net
-* "Josh Clayton":http://jdclayton.com
+* "Christian Montoya":https://christianmontoya.net
+* "Josh Clayton":https://jdclayton.com
 
 Contributors:
-* "Franz Josef Kaiser":http://github.com/franz-josef-kaiser
-* "Glenn Rempe":http://www.rempe.us/
-* "Chris Eppstein":http://chriseppstein.github.com/
-* "Sean K. Stewart":http://seankstewart.com/
+* "Franz Josef Kaiser":https://github.com/franz-josef-kaiser
+* "Glenn Rempe":https://www.rempe.us/
+* "Chris Eppstein":https://chriseppstein.github.com/
+* "Sean K. Stewart":https://seankstewart.com/
 
 h2. Original CSS authors
 
@@ -26,17 +26,17 @@ The first iteration of Blueprint was built upon many conventions
 and ideas that were developed by true CSS experts.
 
 The grid and typography is based on work by:
-* "Jeff Croft":http://jeffcroft.com
-* "Nathan Borror":http://nathanborror.com/
-* "Christian Metts":http://mintchaos.com
-* "Wilson Miner":http://www.wilsonminer.com
+* "Jeff Croft":https://jeffcroft.com
+* "Nathan Borror":https://nathanborror.com/
+* "Christian Metts":https://mintchaos.com
+* "Wilson Miner":https://www.wilsonminer.com
 
 The CSS reset is based on work by:
-* "Eric Meyer":http://www.meyerweb.com/eric
+* "Eric Meyer":https://www.meyerweb.com/eric
 
 The Fancy Type plugin is based on work by:
-* "Mark Boulton":http://www.markboulton.co.uk
-* "Typogrify":http://typogrify.googlecode.com
+* "Mark Boulton":https://www.markboulton.co.uk
+* "Typogrify":https://typogrify.googlecode.com
 
 (However, remember that these people are not involved with the
 framework, so please don't waste their time or yours by asking 

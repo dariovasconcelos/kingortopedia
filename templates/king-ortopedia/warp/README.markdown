@@ -3,7 +3,7 @@
 - Version: 6.2.7
 - Date: October 2012
 - Author: YOOtheme GmbH
-- Website: <http://www.yootheme.com/warp>
+- Website: <https://www.yootheme.com/warp>
 
 ## Changelog
 	

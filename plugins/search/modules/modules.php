@@ -4,7 +4,7 @@
 // Fly06 Modules Search Plugin
 // Copyright (C) 2010-2011 by Frédéric Leroy (aka Fly06)   
 // --------------- All Rights Reserved ----------------      
-// Homepage   : http://www.fly06.fr/        
+// Homepage   : https://www.fly06.fr/        
 // Version    : 2.0  
 // Date       : 10/04/11
 // License    : GNU/GPL            

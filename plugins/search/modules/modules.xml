@@ -4,9 +4,9 @@
 	<author>Frédéric Leroy (aka Fly06)</author>
 	<creationDate>April 2011</creationDate>
 	<copyright>Copyright (C) 2009 - 2011 Fly06.Fr. All rights reserved.</copyright>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>info@fly06.fr</authorEmail>
-	<authorUrl>http://www.fly06.fr/</authorUrl>
+	<authorUrl>https://www.fly06.fr/</authorUrl>
 	<version>2.0</version>
 	<description>Allows Searching of Modules Content</description>
 	<files>

@@ -1,9 +1,9 @@
 <?php
 /**
 * @package   Warp Theme Framework
-* @author    YOOtheme http://www.yootheme.com
+* @author    YOOtheme https://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 defined('_JEXEC') or die;
@@ -19,8 +19,8 @@ defined('_JEXEC') or die;
 
 		if( ! $link) continue;
 
-		// Add 'http://' if not present
-		$link = (0 === strpos($link, 'http')) ? $link : 'http://'.$link;
+		// Add 'https://' if not present
+		$link = (0 === strpos($link, 'http')) ? $link : 'https://'.$link;
 
 		// If no label is present, take the link
 		$label = ($label) ? $label : $link;

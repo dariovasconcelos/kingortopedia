@@ -44,7 +44,7 @@ class plgSystemRedirect extends JPlugin
 			$current = $uri->toString(array('scheme', 'host', 'port', 'path', 'query', 'fragment'));
 
 			// Attempt to ignore idiots.
-			if ((strpos($current, 'mosConfig_') !== false) || (strpos($current, '=http://') !== false)) {
+			if ((strpos($current, 'mosConfig_') !== false) || (strpos($current, '=https://') !== false)) {
 				// Render the error page.
 				JError::customErrorPage($error);
 			}

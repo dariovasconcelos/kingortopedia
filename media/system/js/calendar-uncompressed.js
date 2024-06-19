@@ -9,7 +9,7 @@
  * This script is developed by Dynarch.com.  Visit us at www.dynarch.com.
  *
  * This script is distributed under the GNU Lesser General Public License.
- * Read the entire license text here: http://www.gnu.org/licenses/lgpl.html
+ * Read the entire license text here: https://www.gnu.org/licenses/lgpl.html
  */
 
 /** The Calendar object constructor. */
@@ -202,7 +202,7 @@ Calendar.createElement = function(type, parent) {
 	if (document.createElementNS) {
 		// use the XHTML namespace; IE won't normally get here unless
 		// _they_ "fix" the DOM2 implementation.
-		el = document.createElementNS("http://www.w3.org/1999/xhtml", type);
+		el = document.createElementNS("https://www.w3.org/1999/xhtml", type);
 	} else {
 		el = document.createElement(type);
 	}
@@ -640,7 +640,7 @@ Calendar.cellClick = function(el, ev) {
 					"the corresponding file in \"lang\" subdir to match calendar-en.js\n" +
 					"and send it back to <mihai_bazon@yahoo.com> to get it into the distribution  ;-)\n\n" +
 					"Thank you!\n" +
-					"http://dynarch.com/mishoo/calendar.epl\n";
+					"https://dynarch.com/mishoo/calendar.epl\n";
 			}
 			alert(text);
 			return;

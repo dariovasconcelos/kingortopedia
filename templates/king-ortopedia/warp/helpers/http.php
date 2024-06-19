@@ -1,9 +1,9 @@
 <?php
 /**
 * @package   Warp Theme Framework
-* @author    YOOtheme http://www.yootheme.com
+* @author    YOOtheme https://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 /*
@@ -309,7 +309,7 @@ class WarpHttpSocket extends WarpHttp {
 /*
 	Class: WarpHttp
 		HTTP base class
-		Based on HTTP Socket connection class (http://cakephp.org, Cake Software Foundation, Inc., MIT License)		
+		Based on HTTP Socket connection class (https://cakephp.org, Cake Software Foundation, Inc., MIT License)		
 */
 class WarpHttp {
 

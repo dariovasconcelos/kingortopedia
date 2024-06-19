@@ -6,9 +6,9 @@
 	<copyright>Copyright (C) 2012 Adonay R. M. All Rights Reserved.</copyright>
 	<license>GNU General Public License</license>
 	<authorEmail>contentdisclaimer@adonay.name</authorEmail>
-	<authorUrl>http://adonay.name/</authorUrl>
+	<authorUrl>https://adonay.name/</authorUrl>
 	<version>1.2</version>
-	<description><![CDATA[<a target="_blank" href="http://adonay.name/"><img src="/plugins/content/disclaimer/images/info.png" /></a>]]></description>
+	<description><![CDATA[<a target="_blank" href="https://adonay.name/"><img src="/plugins/content/disclaimer/images/info.png" /></a>]]></description>
 	<files>
 		<filename plugin="disclaimer">disclaimer.php</filename>
 		<filename>index.html</filename>

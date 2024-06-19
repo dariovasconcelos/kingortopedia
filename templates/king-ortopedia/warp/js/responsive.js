@@ -1,4 +1,4 @@
-/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+/* Copyright (C) YOOtheme GmbH, https://www.gnu.org/licenses/gpl.html GNU/GPL */
 
 (function(a,e,f){function d(a){i.innerHTML='&shy;<style media="'+a+'"> #mq-test-1 { width: 42px; }</style>';g.insertBefore(j,b);c=i.offsetWidth==42;g.removeChild(j);return c}function h(a){var b=d(a.media);if(a._listeners&&a.matches!=b){a.matches=b;for(var b=0,c=a._listeners.length;b<c;b++)a._listeners[b](a)}}if(!e.matchMedia||a.userAgent.match(/(iPhone|iPod|iPad)/i)){var c,g=f.documentElement,b=g.firstElementChild||g.firstChild,j=f.createElement("body"),i=f.createElement("div");i.id="mq-test-1";i.style.cssText=
 "position:absolute;top:-100em";j.style.background="none";j.appendChild(i);e.matchMedia=function(a){var b,c=[];b={matches:d(a),media:a,_listeners:c,addListener:function(a){typeof a==="function"&&c.push(a)},removeListener:function(a){for(var b=0,d=c.length;b<d;b++)c[b]===a&&delete c[b]}};e.addEventListener&&e.addEventListener("resize",function(){h(b)},false);f.addEventListener&&f.addEventListener("orientationchange",function(){h(b)},false);return b}}})(navigator,window,document);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE install PUBLIC "-//Joomla! 1.7//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.7/template-install.dtd">
+<!DOCTYPE install PUBLIC "-//Joomla! 1.7//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.7/template-install.dtd">
 <extension version="2.5" type="template" client="site" method="upgrade">
 	<name>king-ortopedia</name>
 	<version>1.0.0</version>
@@ -8,7 +8,7 @@
 	<authorEmail></authorEmail>
 	<authorUrl></authorUrl>
     <copyright>Copyright (C) YOOtheme GmbH</copyright>
-    <license>YOOtheme Proprietary Use License (http://www.yootheme.com/license)</license>
+    <license>YOOtheme Proprietary Use License (https://www.yootheme.com/license)</license>
 	<description>It is based on YOOtheme's Warp theme framework. NOTE: It is not free or public. This theme is for members of the YOOtheme club only.</description>
 	<files>
 		<filename>checksums</filename>

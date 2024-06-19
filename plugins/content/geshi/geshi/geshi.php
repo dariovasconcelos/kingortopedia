@@ -6,7 +6,7 @@ defined('_JEXEC') or die;
  * GeSHi - Generic Syntax Highlighter
  *
  * The GeSHi class for Generic Syntax Highlighting. Please refer to the
- * documentation at http://qbnz.com/highlighter/documentation.php for more
+ * documentation at https://qbnz.com/highlighter/documentation.php for more
  * information about how to use this class.
  *
  * For changes, release notes, TODOs etc, see the relevant files in the docs/
@@ -32,7 +32,7 @@ defined('_JEXEC') or die;
  * @subpackage core
  * @author     Nigel McNie <nigel@geshi.org>, Benny Baumann <BenBE@omorphia.de>
  * @copyright  (C) 2004 - 2007 Nigel McNie, (C) 2007 - 2008 Benny Baumann
- * @license    http://gnu.org/copyleft/gpl.html GNU GPL
+ * @license    https://gnu.org/copyleft/gpl.html GNU GPL
  *
  */
 
@@ -252,7 +252,7 @@ define('GESHI_ERROR_INVALID_LINE_NUMBER_TYPE', 5);
  * The GeSHi Class.
  *
  * Please refer to the documentation for GeSHi 1.0.X that is available
- * at http://qbnz.com/highlighter/documentation.php for more information
+ * at https://qbnz.com/highlighter/documentation.php for more information
  * about how to use this class.
  *
  * @package   geshi
@@ -4241,7 +4241,7 @@ class GeSHi {
     /**
      * Secure replacement for PHP built-in function htmlspecialchars().
      *
-     * See ticket #427 (http://wush.net/trac/wikka/ticket/427) for the rationale
+     * See ticket #427 (https://wush.net/trac/wikka/ticket/427) for the rationale
      * for this replacement function.
      *
      * The INTERFACE for this function is almost the same as that for
@@ -4268,18 +4268,18 @@ class GeSHi {
      * of PHP's '&#039;' for a single quote: this provides compatibility with
      *      get_html_translation_table(HTML_SPECIALCHARS, ENT_QUOTES)
      * (see comment by mikiwoz at yahoo dot co dot uk on
-     * http://php.net/htmlspecialchars); it also matches the entity definition
+     * https://php.net/htmlspecialchars); it also matches the entity definition
      * for XML 1.0
-     * (http://www.w3.org/TR/xhtml1/dtds.html#a_dtd_Special_characters).
+     * (https://www.w3.org/TR/xhtml1/dtds.html#a_dtd_Special_characters).
      * Like PHP we use a numeric character reference instead of '&apos;' for the
      * single quote. For the other special characters we use the named entity
      * references, as PHP is doing.
      *
-     * @author      {@link http://wikkawiki.org/JavaWoman Marjolein Katsma}
+     * @author      {@link https://wikkawiki.org/JavaWoman Marjolein Katsma}
      *
-     * @license     http://www.gnu.org/copyleft/lgpl.html
+     * @license     https://www.gnu.org/copyleft/lgpl.html
      *              GNU Lesser General Public License
-     * @copyright   Copyright 2007, {@link http://wikkawiki.org/CreditsPage
+     * @copyright   Copyright 2007, {@link https://wikkawiki.org/CreditsPage
      *              Wikka Development Team}
      *
      * @access      private
@@ -4370,13 +4370,13 @@ class GeSHi {
                 " * Dynamically generated stylesheet for {$this->language}\n".
                 " * CSS class: {$this->overall_class}, CSS id: {$this->overall_id}\n".
                 " * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann\n" .
-                " * (http://qbnz.com/highlighter/ and http://geshi.org/)\n".
+                " * (https://qbnz.com/highlighter/ and https://geshi.org/)\n".
                 " * --------------------------------------\n".
                 " */\n";
         } else {
             $stylesheet = "/**\n".
                 " * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann\n" .
-                " * (http://qbnz.com/highlighter/ and http://geshi.org/)\n".
+                " * (https://qbnz.com/highlighter/ and https://geshi.org/)\n".
                 " */\n";
         }
 

@@ -1,15 +1,15 @@
 <?php
 /**
 * @package   Warp Theme Framework
-* @author    YOOtheme http://www.yootheme.com
+* @author    YOOtheme https://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 /*
 	Class: UseragentWarpHelper
 		User agent helper class, detect browser, version and operating system
-		Based on Simple PHP User agent (http://github.com/ornicar/php-user-agent, Thibault Duplessis <thibault.duplessis@gmail.com>, MIT License)
+		Based on Simple PHP User agent (https://github.com/ornicar/php-user-agent, Thibault Duplessis <thibault.duplessis@gmail.com>, MIT License)
 */
 class UseragentWarpHelper extends WarpHelper {
 

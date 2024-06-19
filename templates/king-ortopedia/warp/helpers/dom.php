@@ -1,9 +1,9 @@
 <?php
 /**
 * @package   Warp Theme Framework
-* @author    YOOtheme http://www.yootheme.com
+* @author    YOOtheme https://www.yootheme.com
 * @copyright Copyright (C) YOOtheme GmbH
-* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+* @license   https://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
 /*
@@ -12,7 +12,7 @@
 */
 class DomWarpHelper extends WarpHelper {
 
-	const HTML_DOCTYPE = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>%s</body></html>';	
+	const HTML_DOCTYPE = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>%s</body></html>';	
 
 	/*
 		Function: create
@@ -422,7 +422,7 @@ class WarpDOMElement extends DOMElement {
 /*
 	Class: WarpDOMEntities
 		HTML/XML entity processing
-		Based on QueryPath (http://querypath.org, 2009 Matt Butcher <matt@aleph-null.tv>, LGPL/MIT License)
+		Based on QueryPath (https://querypath.org, 2009 Matt Butcher <matt@aleph-null.tv>, LGPL/MIT License)
 */
 class WarpDOMEntities {
   

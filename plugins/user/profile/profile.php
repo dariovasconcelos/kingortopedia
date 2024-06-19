@@ -116,7 +116,7 @@ class plgUserProfile extends JPlugin
 			}
 			else
 			{
-				return '<a href="http://'.$value.'">'.$value.'</a>';
+				return '<a href="https://'.$value.'">'.$value.'</a>';
 			}
 		}
 	}

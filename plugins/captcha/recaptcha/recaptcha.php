@@ -13,7 +13,7 @@ jimport('joomla.environment.browser');
 
 /**
  * Recaptcha Plugin.
- * Based on the oficial recaptcha library( http://recaptcha.net/plugins/php/ )
+ * Based on the oficial recaptcha library( https://recaptcha.net/plugins/php/ )
  *
  * @package     Joomla.Plugin
  * @subpackage  Captcha
@@ -21,7 +21,7 @@ jimport('joomla.environment.browser');
  */
 class plgCaptchaRecaptcha extends JPlugin
 {
-	const RECAPTCHA_API_SERVER = "http://api.recaptcha.net";
+	const RECAPTCHA_API_SERVER = "https://api.recaptcha.net";
 	const RECAPTCHA_API_SECURE_SERVER = "https://www.google.com/recaptcha/api";
 	const RECAPTCHA_VERIFY_SERVER = "api-verify.recaptcha.net";
 

@@ -6,7 +6,7 @@ defined('_JEXEC') or die;
  * html4strict.php
  * ---------------
  * Author: Nigel McNie (nigel@geshi.org)
- * Copyright: (c) 2004 Nigel McNie (http://qbnz.com/highlighter/)
+ * Copyright: (c) 2004 Nigel McNie (https://qbnz.com/highlighter/)
  * Release Version: 1.0.8.10
  * Date Started: 2004/07/10
  *
@@ -146,7 +146,7 @@ $language_data = array (
             )
         ),
     'URLS' => array(
-        2 => 'http://december.com/html/4/element/{FNAMEL}.html',
+        2 => 'https://december.com/html/4/element/{FNAMEL}.html',
         3 => ''
         ),
     'OOLANG' => false,

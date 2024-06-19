@@ -22,9 +22,9 @@ $this->language = $doc->language;
 $this->direction = $doc->direction;
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
@@ -177,7 +177,7 @@ $this->direction = $doc->direction;
 
                                 <div id="footer">
                                         <p>
-                                                <?php echo JText::_('TPL_BEEZ2_POWERED_BY');?> <a href="http://www.joomla.org/">Joomla!&#174;</a>
+                                                <?php echo JText::_('TPL_BEEZ2_POWERED_BY');?> <a href="https://www.joomla.org/">Joomla!&#174;</a>
                                         </p>
 
                                 </div><!-- end footer -->
