@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>King Ortopedia</title>
+		<description>En KingOrtopedia encontrarás un equipo muy experimentado y especializado en el tratamiento de enfermedades ortopédicas.</description>
+		<link>http://kingortopedia.com/index.php/component/content/category/11-educacion-al-paciente</link>
+		<lastBuildDate>Tue, 18 Jun 2024 22:12:11 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://kingortopedia.com/index.php/component/content/category/11-educacion-al-paciente?format=feed&amp;type=rss"/>
+		<language>es-es</language>
+	</channel>
+</rss>

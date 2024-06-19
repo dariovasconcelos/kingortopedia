@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="es-es">
+	<title type="text">Hombro</title>
+	<subtitle type="text">En KingOrtopedia encontrarás un equipo muy experimentado y especializado en el tratamiento de enfermedades ortopédicas.</subtitle>
+	<link rel="alternate" type="text/html" href="http://kingortopedia.com"/>
+	<id>http://kingortopedia.com/index.php/tratamientos/hombro-trat</id>
+	<updated>2024-06-18T22:12:00+00:00</updated>
+	<generator uri="http://joomla.org" version="2.5">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://kingortopedia.com/index.php/tratamientos/hombro-trat?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Cirugía abierta</title>
+		<link rel="alternate" type="text/html" href="http://kingortopedia.com/index.php/tratamientos/hombro-trat/74-cirugia-abierta"/>
+		<published>2013-10-29T11:13:51+00:00</published>
+		<updated>2013-10-29T11:13:51+00:00</updated>
+		<id>http://kingortopedia.com/index.php/tratamientos/hombro-trat/74-cirugia-abierta</id>
+		<author>
+			<name>Super User</name>
+			<email>administrador@kingortopedia.com</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;La cirugía abierta, que consiste en realizar incisiones grandes, de más de 3-4 cm, se llevará a cabo en aquellas lesiones, en las que se requiera una visualización o manipulación más amplia, tal es el caso de una fractura compleja en cabeza humeral, tercio proximal de humero o cavidad glenoidea, fracturas de escapula,  rupturas tendinosas amplias o de larga evolución, luxaciones de hombro crónicas, luxo-fracturas, infecciones.&lt;/p&gt;
+&lt;p&gt;De los procedimientos que se pueden llevar a cabo, se encuentran los siguientes:&lt;br /&gt;•    Osteosintesis o fijación interna de fracturas.&lt;br /&gt;•    Reducción abierta de luxaciones.&lt;br /&gt;•    Reparación (sutura) de rupturas tendinosas.&lt;br /&gt;•    Plastía de rupturas tendinosas.&lt;br /&gt;•    Artrodesis de hombro&lt;br /&gt;•    Prótesis de hombro.&lt;br /&gt;•    Lavado quirúrgico.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;La cirugía abierta, que consiste en realizar incisiones grandes, de más de 3-4 cm, se llevará a cabo en aquellas lesiones, en las que se requiera una visualización o manipulación más amplia, tal es el caso de una fractura compleja en cabeza humeral, tercio proximal de humero o cavidad glenoidea, fracturas de escapula,  rupturas tendinosas amplias o de larga evolución, luxaciones de hombro crónicas, luxo-fracturas, infecciones.&lt;/p&gt;
+&lt;p&gt;De los procedimientos que se pueden llevar a cabo, se encuentran los siguientes:&lt;br /&gt;•    Osteosintesis o fijación interna de fracturas.&lt;br /&gt;•    Reducción abierta de luxaciones.&lt;br /&gt;•    Reparación (sutura) de rupturas tendinosas.&lt;br /&gt;•    Plastía de rupturas tendinosas.&lt;br /&gt;•    Artrodesis de hombro&lt;br /&gt;•    Prótesis de hombro.&lt;br /&gt;•    Lavado quirúrgico.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;</content>
+		<category term="Hombro" />
+	</entry>
+	<entry>
+		<title>Tratamiento Conservador</title>
+		<link rel="alternate" type="text/html" href="http://kingortopedia.com/index.php/tratamientos/hombro-trat/73-tratamiento-conservador"/>
+		<published>2013-10-29T10:57:30+00:00</published>
+		<updated>2013-10-29T10:57:30+00:00</updated>
+		<id>http://kingortopedia.com/index.php/tratamientos/hombro-trat/73-tratamiento-conservador</id>
+		<author>
+			<name>Super User</name>
+			<email>administrador@kingortopedia.com</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;images/frac.png&quot; border=&quot;0&quot; width=&quot;227&quot; height=&quot;297&quot; style=&quot;border: 0; float: right; margin: 12px;&quot; /&gt;Dentro de las patologías en hombro, susceptibles de ser tratadas con manejo conservador, se encuentran: Tendinitis el mango de los rotadores, tendinitis bicipital, bursitis, luxaciones acromio-claviculares, luxaciones de hombro, esguinces.&lt;br /&gt;El manejo consistirá en prescripción de medicamentos, inmovilización con aparatos diseñados para esto, reposo, crioterapia, y posteriormente fisioterapia, con el fin de recuperar la función y reincorporarse a sus actividades de la vida cotidiana.  &lt;/p&gt;&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;images/frac.png&quot; border=&quot;0&quot; width=&quot;227&quot; height=&quot;297&quot; style=&quot;border: 0; float: right; margin: 12px;&quot; /&gt;Dentro de las patologías en hombro, susceptibles de ser tratadas con manejo conservador, se encuentran: Tendinitis el mango de los rotadores, tendinitis bicipital, bursitis, luxaciones acromio-claviculares, luxaciones de hombro, esguinces.&lt;br /&gt;El manejo consistirá en prescripción de medicamentos, inmovilización con aparatos diseñados para esto, reposo, crioterapia, y posteriormente fisioterapia, con el fin de recuperar la función y reincorporarse a sus actividades de la vida cotidiana.  &lt;/p&gt;&lt;/div&gt;</content>
+		<category term="Hombro" />
+	</entry>
+	<entry>
+		<title>Artroscopia de hombro</title>
+		<link rel="alternate" type="text/html" href="http://kingortopedia.com/index.php/hombro/artroscopia-de-hombro"/>
+		<published>2012-12-08T07:08:21+00:00</published>
+		<updated>2012-12-08T07:08:21+00:00</updated>
+		<id>http://kingortopedia.com/index.php/hombro/artroscopia-de-hombro</id>
+		<author>
+			<name>Super User</name>
+			<email>administrador@kingortopedia.com</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;La &lt;strong&gt;artroscopia de &lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt;&lt;/strong&gt; es el procedimiento a través del cual introducimos una cámara dentro de la articulación del &lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt; así como al espacio subacromial. Gracias a este procedimiento podemos explorar a visión directa la articulación glenohumeral (&lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt;). Para este procedimiento habitualmente realizamos de 2 a 4 incisiones en la piel de aproximadamente 6 a 8 mm a través de las que introducimos nuestra cámara así como el instrumental necesario para poder tratar la enfermedad que presenta el &lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt;.&lt;/p&gt;
+&lt;div&gt;Las enfermedades susceptibles de &lt;span style=&quot;text-decoration: underline;&quot;&gt;artroscopia de &lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt;&lt;/span&gt; son: &lt;/div&gt;
+&lt;div style=&quot;padding-left: 60px;&quot;&gt;•    Lesiones del mango de los rotadores&lt;br /&gt;•    Síndrome de pinzamiento subacromial&lt;br /&gt;•    Hombro congelado&lt;br /&gt;•    Artrosis glenohumeral &lt;br /&gt;•    Artrosis acromioclavicular&lt;br /&gt;•    Calcificaciones subacromiales&lt;br /&gt;•    Cuerpos extraños&lt;br /&gt;•    Inestabilidad de hombro&lt;br /&gt;•    Luxación acromio clavicular&lt;br /&gt;•    Tendinitis del bíceps&lt;br /&gt;•    Entre muchos otros.&lt;br /&gt; &lt;/div&gt;
+&lt;div&gt;Al realizarse este procedimiento a través de pequeñas incisiones cutáneas el dolor postquirúrgico se ve importantemente disminuido.&lt;/div&gt;
+&lt;div&gt;La rehabilitación antes y después de la cirugía jugará un papel fundamental en el buen resultado que podamos tener con el procedimiento. &lt;/div&gt;
+&lt;p&gt;Para saber si usted es candidato a una artroscopia de &lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt;, su médico realizará una exploración física detallada y solicitará los estudios de laboratorio y gabinete (radiografías, resonancia magnética o tomografía computada) necesarios para llegar a un diagnóstico preciso y saber si es candidato a una cirugía artroscópica para solucionarlo.&lt;/p&gt;&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;La &lt;strong&gt;artroscopia de &lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt;&lt;/strong&gt; es el procedimiento a través del cual introducimos una cámara dentro de la articulación del &lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt; así como al espacio subacromial. Gracias a este procedimiento podemos explorar a visión directa la articulación glenohumeral (&lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt;). Para este procedimiento habitualmente realizamos de 2 a 4 incisiones en la piel de aproximadamente 6 a 8 mm a través de las que introducimos nuestra cámara así como el instrumental necesario para poder tratar la enfermedad que presenta el &lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt;.&lt;/p&gt;
+&lt;div&gt;Las enfermedades susceptibles de &lt;span style=&quot;text-decoration: underline;&quot;&gt;artroscopia de &lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt;&lt;/span&gt; son: &lt;/div&gt;
+&lt;div style=&quot;padding-left: 60px;&quot;&gt;•    Lesiones del mango de los rotadores&lt;br /&gt;•    Síndrome de pinzamiento subacromial&lt;br /&gt;•    Hombro congelado&lt;br /&gt;•    Artrosis glenohumeral &lt;br /&gt;•    Artrosis acromioclavicular&lt;br /&gt;•    Calcificaciones subacromiales&lt;br /&gt;•    Cuerpos extraños&lt;br /&gt;•    Inestabilidad de hombro&lt;br /&gt;•    Luxación acromio clavicular&lt;br /&gt;•    Tendinitis del bíceps&lt;br /&gt;•    Entre muchos otros.&lt;br /&gt; &lt;/div&gt;
+&lt;div&gt;Al realizarse este procedimiento a través de pequeñas incisiones cutáneas el dolor postquirúrgico se ve importantemente disminuido.&lt;/div&gt;
+&lt;div&gt;La rehabilitación antes y después de la cirugía jugará un papel fundamental en el buen resultado que podamos tener con el procedimiento. &lt;/div&gt;
+&lt;p&gt;Para saber si usted es candidato a una artroscopia de &lt;span class=&quot;il&quot;&gt;hombro&lt;/span&gt;, su médico realizará una exploración física detallada y solicitará los estudios de laboratorio y gabinete (radiografías, resonancia magnética o tomografía computada) necesarios para llegar a un diagnóstico preciso y saber si es candidato a una cirugía artroscópica para solucionarlo.&lt;/p&gt;&lt;/div&gt;</content>
+		<category term="Hombro" />
+	</entry>
+	<entry>
+		<title>Prótesis de hombro</title>
+		<link rel="alternate" type="text/html" href="http://kingortopedia.com/index.php/hombro/protesis-de-hombro"/>
+		<published>2012-12-01T01:52:02+00:00</published>
+		<updated>2012-12-01T01:52:02+00:00</updated>
+		<id>http://kingortopedia.com/index.php/hombro/protesis-de-hombro</id>
+		<author>
+			<name>Super User</name>
+			<email>administrador@kingortopedia.com</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;Se trata de un procedimiento quirúrgico en el cual se sustituye la articulación del hombro por una articulación artificial o prótesis. El colocar una prótesis de hombro ya sea completa o parcial se puede indicar en pacientes que presenten dolor importante en el hombro que proviene de:&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;Se trata de un procedimiento quirúrgico en el cual se sustituye la articulación del hombro por una articulación artificial o prótesis. El colocar una prótesis de hombro ya sea completa o parcial se puede indicar en pacientes que presenten dolor importante en el hombro que proviene de:&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Hombro" />
+	</entry>
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="es-es">
+	<title type="text">King Ortopedia</title>
+	<subtitle type="text">En KingOrtopedia encontrarás un equipo muy experimentado y especializado en el tratamiento de enfermedades ortopédicas.</subtitle>
+	<link rel="alternate" type="text/html" href="http://kingortopedia.com"/>
+	<id>http://kingortopedia.com/index.php/component/content/category/7-blog</id>
+	<updated>2024-06-18T22:12:11+00:00</updated>
+	<generator uri="http://joomla.org" version="2.5">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://kingortopedia.com/index.php/component/content/category/7-blog?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Avisos de Privacidad</title>
+		<link rel="alternate" type="text/html" href="http://kingortopedia.com/index.php/contacto/avisos-de-privacidad"/>
+		<published>2013-04-16T23:47:48+00:00</published>
+		<updated>2013-04-16T23:47:48+00:00</updated>
+		<id>http://kingortopedia.com/index.php/contacto/avisos-de-privacidad</id>
+		<author>
+			<name>Super User</name>
+			<email>administrador@kingortopedia.com</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-MK.html&quot;&gt;Aviso de Privacidad Dr. Moisés Alberto King Hayata &lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-ACK.html&quot;&gt;Aviso de Privacidad Dra. Ana Cristina King Martínez&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-ACA.html&quot;&gt;Aviso de Privacidad Dr. Alberto Cuéllar Avaroma&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-MK.html&quot;&gt;Aviso de Privacidad Dra. María Cristina Martínez de Anda&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-MK3.html&quot;&gt;Aviso de Privacidad Dr. Moisés King Martínez &lt;/a&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-JA.html&quot;&gt;Aviso de Privacidad Dr. Jorge Alberto Sánchez Rodríguez &lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-MK.html&quot;&gt;Aviso de Privacidad Dr. Moisés Alberto King Hayata &lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-ACK.html&quot;&gt;Aviso de Privacidad Dra. Ana Cristina King Martínez&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-ACA.html&quot;&gt;Aviso de Privacidad Dr. Alberto Cuéllar Avaroma&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-MK.html&quot;&gt;Aviso de Privacidad Dra. María Cristina Martínez de Anda&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-MK3.html&quot;&gt;Aviso de Privacidad Dr. Moisés King Martínez &lt;/a&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a data-lightbox=&quot;width:600;height:300;&quot; href=&quot;images/AVISO-DE-PRIVACIDAD-JA.html&quot;&gt;Aviso de Privacidad Dr. Jorge Alberto Sánchez Rodríguez &lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content>
+		<category term="Blog" />
+	</entry>
+	<entry>
+		<title>Casos clínicos</title>
+		<link rel="alternate" type="text/html" href="http://kingortopedia.com/index.php/galeria/casos-de-exito"/>
+		<published>2013-03-31T08:30:09+00:00</published>
+		<updated>2013-03-31T08:30:09+00:00</updated>
+		<id>http://kingortopedia.com/index.php/galeria/casos-de-exito</id>
+		<author>
+			<name>Super User</name>
+			<email>administrador@kingortopedia.com</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;{loadposition casosde}&lt;/p&gt;&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;{loadposition casosde}&lt;/p&gt;&lt;/div&gt;</content>
+		<category term="Blog" />
+	</entry>
+</feed>
